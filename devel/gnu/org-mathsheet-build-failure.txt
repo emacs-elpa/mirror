@@ -1,0 +1,3 @@
+======== Building tarball archive-devel/org-mathsheet-1.0.0.20250411.83935.tar...
+Build error for archive-devel/org-mathsheet-1.0.0.20250411.83935.tar: (error "Unknown required package: calc")
+######## Build of package archive-devel/org-mathsheet-1.0.0.20250411.83935.tar FAILED!!

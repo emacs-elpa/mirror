@@ -1,0 +1,6 @@
+======== Building tarball archive-devel/loc-changes-1.3.0.20260119.53508.tar...
+Problem with copyright notices:
+loc-changes/el-get-install.el:;; Copyright (C) 2010 Dimitri Fontaine
+Missing copyright notice in loc-changes/el-get-install.el
+Build error for archive-devel/loc-changes-1.3.0.20260119.53508.tar: (error "Abort")
+######## Build of package archive-devel/loc-changes-1.3.0.20260119.53508.tar FAILED!!

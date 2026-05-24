@@ -1,0 +1,7 @@
+======== Building tarball archive-devel/beardbolt-0.1.2.0.20250412.122845.tar...
+Problem with copyright notices:
+beardbolt/beardbolt.el:;; Copyright (C) 2018-2021 Jay Kamat 2022 João Távora
+Missing copyright notice in beardbolt/beardbolt.el
+Missing copyright notice in beardbolt/beardbolt-benchmark.el
+Build error for archive-devel/beardbolt-0.1.2.0.20250412.122845.tar: (error "Abort")
+######## Build of package archive-devel/beardbolt-0.1.2.0.20250412.122845.tar FAILED!!
