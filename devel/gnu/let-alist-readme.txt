@@ -17,7 +17,7 @@ For instance, the following code
 
 essentially expands to
 
-  (let ((.title.0 (nth 0 (cdr (assq 'title alist))))
+  (let ((.title.0 (elt (cdr (assq 'title alist)) 0))
         (.body  (cdr (assq 'body alist)))
         (.site  (cdr (assq 'site alist)))
         (.site.contents (cdr (assq 'contents (cdr (assq 'site alist))))))
