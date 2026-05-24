@@ -1,0 +1,7 @@
+Upstream of rpm-spec-mode has DIVERGED!
+
+  Local changes:
+ca2dac43a3 2026-04  bjorn.kettunen..  Fix calls to (un)comment-region on lines without macros
+
+  Upstream changes:
+90c1beceff 2026-04  bjorn.kettunen..  Fix calls to (un)comment-region on lines without macros

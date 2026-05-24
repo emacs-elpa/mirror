@@ -1,0 +1,3 @@
+======== Building tarball archive/elfeed-web-3.4.2.tar...
+Build error for archive/elfeed-web-3.4.2.tar: (error "Can’t find main file /home/elpa/nongnu/packages/elfeed-web/elfeed-web.el file in /home/elpa/nongnu/packages/elfeed-web/")
+######## Build of package archive/elfeed-web-3.4.2.tar FAILED!!

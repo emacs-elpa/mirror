@@ -1,0 +1,1 @@
+../../elpa/archive/gnosis.tar.sig

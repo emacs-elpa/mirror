@@ -1,0 +1,38 @@
+Upstream of iedit has DIVERGED!
+
+  Local changes:
+b4bffe2abb 2025-10  victorhge@gmai..  Apply keyboard macro in sequence
+158479f9f9 2025-10  victorhge@gmai..  Remove time-stamps which introduces unnecessary conflicts
+6c5f809959 2025-10  prouleau001@gm..  Reformat test strings to place all test text at beginning of line
+b8bcf521ce 2025-10  prouleau001@gm..  Fix test regressions and errors
+6fc89369b1 2025-10  prouleau001@gm..  Emacs < 24 no longer supported
+1c504214b2 2025-10  prouleau001@gm..  Simplify iedit-apply-on-occurrences and iedit-apply-on-occurrences-in-seq
+80692aaae9 2025-10  prouleau001@gm..  Improved docstrings
+df40acde18 2025-10  prouleau001@gm..  Ignore more files: Emacs backup & temporary, macOS fork files.
+950810ab89 2025-10  prouleau001@gm..  Add a rule to run iedit ERT tests
+4ea7d669a5 2025-10  prouleau001@gm..  with-iedit-test-fixture save/restore iedit-case-sensitive
+898d12af0b 2025-10  prouleau001@gm..  Fix indentation.
+5d41739b6b 2025-09  prouleau001@gm..  Update interactive spec of iedit-execute-last-modification
+c47505d114 2025-09  prouleau001@gm..  Fix warnings detected by Emacs 30.2
+d6ac1fbeea 2025-09  victorhge@gmai..  Remove messages about default key bindings
+6392399b08 2025-09  victorhge@gmai..  Allow special '\' in replacement of `iedit-replace-occurrences'
+e89aadd022 2025-09  victorhge@gmai..  Fix test cases failure
+
+  Upstream changes:
+14161daa29 2025-10  victorhge@gmai..  Add branch strategy in readme
+7e513d573c 2025-10  victorhge@gmai..  Apply keyboard macro in sequence
+2087b41773 2025-10  victorhge@gmai..  Remove time-stamps which introduces unnecessary conflicts
+6036f5aed1 2025-10  prouleau001@gm..  Reformat test strings to place all test text at beginning of line
+00b0a8a826 2025-10  prouleau001@gm..  Fix test regressions and errors
+48497fef54 2025-10  prouleau001@gm..  Emacs < 24 no longer supported
+e45038b96f 2025-10  prouleau001@gm..  Simplify iedit-apply-on-occurrences and iedit-apply-on-occurrences-in-seq
+7e022c7c1c 2025-10  prouleau001@gm..  Improved docstrings
+ed0037d564 2025-10  prouleau001@gm..  Ignore more files: Emacs backup & temporary, macOS fork files.
+82614d7ea6 2025-10  prouleau001@gm..  Add a rule to run iedit ERT tests
+c35bc405ee 2025-10  prouleau001@gm..  with-iedit-test-fixture save/restore iedit-case-sensitive
+cc89fb4d54 2025-10  prouleau001@gm..  Fix indentation.
+aa4acbe141 2025-10  prouleau001@gm..  Update interactive spec of iedit-execute-last-modification
+71a4e21f4b 2025-10  prouleau001@gm..  Fix warnings detected by Emacs 30.2
+d9e251cf63 2025-10  victorhge@gmai..  Remove messages about default key bindings
+8a40bab904 2025-10  victorhge@gmai..  Allow special '\' in replacement of `iedit-replace-occurrences'
+9477527529 2025-10  victorhge@gmai..  Fix test cases failure

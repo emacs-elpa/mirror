@@ -1,0 +1,9 @@
+Upstream of engine-mode has DIVERGED!
+
+  Local changes:
+f9efca3ad6 2023-09  hello@harryrsc..  Add docs comparing engine-mode with webjump
+
+  Upstream changes:
+e7f317f1b2 2024-09  hello@robinsch..  Fix lexical binding annotation
+1cfdaef7e0 2024-09  hello@robinsch..  Update attribution
+19fbf8e21d 2023-10  hello@harryrsc..  Add docs comparing engine-mode with webjump

@@ -1,0 +1,7 @@
+======== Building tarball archive/flymake-collection-2.0.2.tar...
+Build error for archive/flymake-collection-2.0.2.tar: (error "Error-indicating exit code in elpaa--call-sandboxed:
+make[1]: Entering directory '/home/elpa/nongnu/packages/flymake-collection'
+make[1]: *** No rule to make target 'checkers-autoloads'.  Stop.
+make[1]: Leaving directory '/home/elpa/nongnu/packages/flymake-collection'
+")
+######## Build of package archive/flymake-collection-2.0.2.tar FAILED!!
