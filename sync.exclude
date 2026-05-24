@@ -1,0 +1,9 @@
+*.html
+*.log
+*.lz
+*.svg
+*.xml
+*~
+.*
+doc/
+old/

@@ -1,0 +1,18 @@
+name: Sync
+on:
+  schedule:
+    - cron: '0 0,12 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - name: Sync
+        run: ./sync.sh

@@ -1,0 +1,30 @@
+#+title: Unofficial ELPA Mirror
+
+The mirror is automatically synchronized twice a day via efficient rsync by the
+[[https://github.com/emacs-elpa/mirror/blob/main/sync.sh][sync.sh]] shell script.
+
+* Devel
+
+The devel archives can be configured as follows:
+
+#+begin_src emacs-lisp
+(setq package-archives '(("gnu-devel"    . "https://raw.githubusercontent.com/emacs-elpa/mirror/main/devel/gnu/")
+                         ("nongnu-devel" . "https://raw.githubusercontent.com/emacs-elpa/mirror/main/devel/nongnu/")
+                         ("melpa-devel"  . "https://raw.githubusercontent.com/emacs-elpa/mirror/main/devel/melpa/"))
+      package-archive-priorities '(("gnu-devel"    . 2)
+                                   ("nongnu-devel" . 1)
+                                   ("melpa-devel"  . 0)))
+#+end_src
+
+* Stable
+
+The stable archives can be configured as follows:
+
+#+begin_src emacs-lisp
+(setq package-archives '(("gnu-stable"    . "https://raw.githubusercontent.com/emacs-elpa/mirror/main/stable/gnu/")
+                         ("nongnu-stable" . "https://raw.githubusercontent.com/emacs-elpa/mirror/main/stable/nongnu/")
+                         ("melpa-stable"  . "https://raw.githubusercontent.com/emacs-elpa/mirror/main/stable/melpa/"))
+      package-archive-priorities '(("gnu-stable"    . 2)
+                                   ("nongnu-stable" . 1)
+                                   ("melpa-stable"  . 0)))
+#+end_src
