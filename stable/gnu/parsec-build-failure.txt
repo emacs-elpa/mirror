@@ -1,0 +1,28 @@
+======== Building tarball archive/parsec-0.1.3.tar...
+Problem with copyright notices:
+parsec/parsec.el:;; Copyright (C) 2016  Junpeng Qiu
+Missing copyright notice in parsec/parsec.el
+parsec/parsec-tests.el:;; Copyright (C) 2016  Junpeng Qiu
+Missing copyright notice in parsec/parsec-tests.el
+parsec/examples/url-str-parser.el:;; Copyright (C) 2016  Junpeng Qiu
+Missing copyright notice in parsec/examples/url-str-parser.el
+parsec/examples/url-str-parser-tests.el:;; Copyright (C) 2016  Junpeng Qiu
+Missing copyright notice in parsec/examples/url-str-parser-tests.el
+parsec/examples/simple-csv-parser.el:;; Copyright (C) 2016  Junpeng Qiu
+Missing copyright notice in parsec/examples/simple-csv-parser.el
+parsec/examples/simple-csv-parser-tests.el:;; Copyright (C) 2016  Junpeng Qiu
+Missing copyright notice in parsec/examples/simple-csv-parser-tests.el
+parsec/examples/scheme.el:;; Copyright (C) 2016  Junpeng Qiu
+Missing copyright notice in parsec/examples/scheme.el
+parsec/examples/scheme-tests.el:;; Copyright (C) 2016  Junpeng Qiu
+Missing copyright notice in parsec/examples/scheme-tests.el
+parsec/examples/pjson.el:;; Copyright (C) 2016  Junpeng Qiu
+Missing copyright notice in parsec/examples/pjson.el
+parsec/examples/pjson-tests.el:;; Copyright (C) 2016  Junpeng Qiu
+Missing copyright notice in parsec/examples/pjson-tests.el
+parsec/examples/full-csv-parser.el:;; Copyright (C) 2016  Junpeng Qiu
+Missing copyright notice in parsec/examples/full-csv-parser.el
+parsec/examples/full-csv-parser-tests.el:;; Copyright (C) 2016  Junpeng Qiu
+Missing copyright notice in parsec/examples/full-csv-parser-tests.el
+Build error for archive/parsec-0.1.3.tar: (error "Abort")
+######## Build of package archive/parsec-0.1.3.tar FAILED!!

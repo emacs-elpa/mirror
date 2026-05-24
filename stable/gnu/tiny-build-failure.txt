@@ -1,0 +1,6 @@
+======== Building tarball archive/tiny-0.2.1.tar...
+Problem with copyright notices:
+Missing copyright notice in tiny/targets/install-deps.el
+Missing copyright notice in tiny/targets/elpa.el
+Build error for archive/tiny-0.2.1.tar: (error "Abort")
+######## Build of package archive/tiny-0.2.1.tar FAILED!!

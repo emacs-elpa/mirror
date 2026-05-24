@@ -1,0 +1,6 @@
+======== Building tarball archive/shift-number-0.2.tar...
+Problem with copyright notices:
+shift-number/shift-number.el:;; Copyright (c) 2016–2017 Alex Kost
+Missing copyright notice in shift-number/shift-number.el
+Build error for archive/shift-number-0.2.tar: (error "Abort")
+######## Build of package archive/shift-number-0.2.tar FAILED!!

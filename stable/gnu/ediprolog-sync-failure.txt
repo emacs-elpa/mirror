@@ -1,0 +1,15 @@
+Upstream of ediprolog has DIVERGED!
+
+  Local changes:
+cfcdf9e428 2022-10  monnier@iro.um..  Merge remote-tracking branch 'upstream/ediprolog/main' into externals/ediprolog
+40c2693389 2022-10  monnier@iro.um..  Merge commit '751119cfee9efb52e89d0387d795f3b0c181299d' into externals/ediprolog
+3fa2be14ea 2020-11  monnier@iro.um..  * .gitignore: New file
+ee2dc3a56a 2020-08  triska@metalev..  Add version 2.1 of ediprolog.el
+5f960e49a8 2017-06  triska@metalev..  * ediprolog/ediprolog.el (ediprolog-version): Bump to 1.2
+aa4959cbd9 2016-07  eggert@cs.ucla..  Fix some quoting problems in doc strings
+a9733cadaa 2015-09  dgutov@yandex.ru  ediprolog: Don't autoload variables
+98aa0440f2 2015-09  dgutov@yandex.ru  Update ediprolog to the latest release
+6720d3e6d6 2011-12  monnier@iro.um..  Add new package "ediprolog".
+
+  Upstream changes:
+bc108f8322 2024-10  triska@metalev..  update to ediprolog 2.3

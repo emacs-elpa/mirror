@@ -1,0 +1,18 @@
+Upstream of multishell has DIVERGED!
+
+  Local changes:
+d08d954922 2022-06  ken.manheimer@..  Revise the multishell README description.
+aa1433b8df 2022-06  ken.manheimer@..  Increment the package version and refine the description header a little.
+7343133f3f 2022-06  ken.manheimer@..  Autoload customizations so the customized keybinding loads the package.
+86e07ba8db 2022-06  ken.manheimer@..  Refine multishell features description.
+
+  Upstream changes:
+6c79575085 2022-06  ken.manheimer@..  Include current year in copyright scope.
+12c100e3f2 2022-06  ken.manheimer@..  More description refinement.
+d49cc44d56 2022-06  ken.manheimer@..  Phrasing.
+1eb4cbae47 2022-06  ken.manheimer@..  Note refinement of functionality descriptions in change log.
+9225b9644d 2022-06  ken.manheimer@..  Refine description of multishell's features.
+8026bc0e29 2022-06  ken.manheimer@..  Distinguish version 1.1.10 entries of 2021-08-02 and 2022-06-04.
+5710055978 2022-06  ken.manheimer@..  Note the technique I'm using for the customization autoloads.
+8bf26e7092 2022-06  ken.manheimer@..  Increment the primary package version.
+78e06a5208 2022-06  ken.manheimer@..  Autoload customizations so the customized keybinding loads the package.

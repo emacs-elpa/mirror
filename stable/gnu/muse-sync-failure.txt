@@ -1,0 +1,27 @@
+Upstream of muse has DIVERGED!
+
+  Local changes:
+be347db7f1  monnier@iro.um..  Fix up copyright in .el files
+6664f0d24c  monnier@iro.um..  Use the GNU EL:PA version of the README
+319655d13e  cyd@stupidchic..  Make Muse's *-link faces inherit from the basic link face.
+260b92e8f1  rgm@gnu.org       muse: replace the obsolete interactive-p
+2711a96bac  rgm@gnu.org       muse: replace find-file-hooks, an obsolete alias since Emacs 22.1
+34b61f28ee  eggert@cs.ucla..  Fix some quoting problems in doc strings
+0bb90c23bf  monnier@iro.um..  Miscellaneous cleanup.
+5998244990  monnier@iro.um..  Only keep the strictly necessary *-pkg.el files
+290b4f9af8  monnier@iro.um..  * GNUmakefile: Rename from Makefile.  Add targets for in-place use. (all, all-in-place): New targets. * admin/archive-contents.el (archive--simple-package-p): Ignore autosave files. (archive--refresh-pkg-file): New function. (archive--write-pkg-file): Print with ' and ` shorthands. * packages/company/company-pysmell.el: Don't require pysmell during compile. * packages/muse/htmlize-hack.el: Don't require htmlize during compile. * packages/shen-mode/shen-mode.el (shen-functions): Define during compile. * smart-operator/smart-operator.el (smart-operator-insert-1): Use pcase.
+74272faee7  monnier@iro.um..  Clean up copyright notices.
+c760162205  monnier@iro.um..  Move files like was done when moved to GNU ELPA
+
+  Upstream changes:
+b22338147e  manphiz@gmail...  convert a muse-init.el example to UTF-8 (#15)
+eb866abb55  47980+manphiz@..  Migrate away from deprecated assoc.el. (#14)
+faa48d78ed  alexott@gmail...  Merge pull request #9 from labdsf/master
+a8458264ec  ilabdsf@gmail...  Fix comment regexp
+0bb5d3fa57  alexott@gmail...  Merge pull request #4 from thesoftwarebin/patch-1
+fdc56d1611  andrear1979@ho..  Update lisp/muse-texinfo.el
+517cf75cc4  alexott@gmail...  Merge pull request #2 from cocoatomo/master
+0b082f614c  cocoatomo77@gm..  translated QuickStart into Japanese
+92922b23d3  alexott@gmail...  make new behaviour configurable
+a1577f6f27  alexott@gmail...  correct filename generation for not-yet-existing links
+f0bdba2edb  alexott@gmail...  use correct newline character in longlines-mode

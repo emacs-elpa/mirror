@@ -1,0 +1,8 @@
+Upstream of ztree has DIVERGED!
+
+  Local changes:
+878375adf6 2023-06  fourier@proton..  Updated readme
+
+  Upstream changes:
+9905f1be00 2025-02  alexey.vereten..  ztree-dir: selection is cleared when current focused buffer does not exist dir view.
+a13ea87e28 2025-02  alexey.vereten..  ztree-dir: add bold selection for file opened in current frame

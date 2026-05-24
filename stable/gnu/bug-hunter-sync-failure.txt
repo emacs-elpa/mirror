@@ -1,0 +1,8 @@
+Upstream of bug-hunter has DIVERGED!
+
+  Local changes:
+3eaaa92f98 2020-11  monnier@iro.um..  * bug-hunter-test.el: Fix up copyright
+5c99abeb26 2020-11  eggert@cs.ucla..  Fix some quoting problems in doc strings
+
+  Upstream changes:
+31a2da8fd5 2018-06  artur@endlessp..  Don't say idempotent, I'm not sure what I meant when I wrote it

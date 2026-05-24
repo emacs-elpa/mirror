@@ -1,0 +1,10 @@
+Upstream of names has DIVERGED!
+
+  Local changes:
+77fbff178e 2022-04  monnier@iro.um..  * .elpaignore: New file
+b269f61175 2021-03  monnier@iro.um..  Merge remote-tracking branch 'upstream/names/main' into externals/names
+4e7c577dc1 2018-09  artur@endlessp..  Stop using advice, user nadvice instead
+
+  Upstream changes:
+45a272fae9 2022-12  453029+Malabar..  Merge pull request #36 from JimMoen/feat-supprort-cl-defun
+a1c84f8665 2022-12  LnJimMoen@outl..  feat: support `cl-defun` in namespace macro

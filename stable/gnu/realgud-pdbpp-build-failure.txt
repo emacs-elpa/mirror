@@ -1,0 +1,3 @@
+======== Building tarball archive/realgud-pdbpp-1.0.0.tar...
+Build error for archive/realgud-pdbpp-1.0.0.tar: (error "Can’t find main file /home/elpa/elpa/packages/realgud-pdbpp/realgud-pdbpp.el file in /home/elpa/elpa/packages/realgud-pdbpp/")
+######## Build of package archive/realgud-pdbpp-1.0.0.tar FAILED!!

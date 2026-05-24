@@ -1,0 +1,5 @@
+======== Building tarball archive/trinary-1.2.1.tar...
+Problem with copyright notices:
+Missing copyright notice in trinary/Elsafile.el
+Build error for archive/trinary-1.2.1.tar: (error "Abort")
+######## Build of package archive/trinary-1.2.1.tar FAILED!!

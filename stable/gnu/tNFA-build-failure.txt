@@ -1,0 +1,6 @@
+======== Building tarball archive/tNFA-0.1.1.tar...
+Problem with copyright notices:
+tNFA/tNFA.el:;; Copyright (C) 2008-2010 Toby Cubitt
+Missing copyright notice in tNFA/tNFA.el
+Build error for archive/tNFA-0.1.1.tar: (error "Abort")
+######## Build of package archive/tNFA-0.1.1.tar FAILED!!

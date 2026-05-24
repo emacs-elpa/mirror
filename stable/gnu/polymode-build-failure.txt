@@ -1,0 +1,28 @@
+======== Building tarball archive/polymode-0.2.2.tar...
+Problem with copyright notices:
+polymode/polymode.el:;; Copyright (C) 2013-2019, Vitalie Spinu
+Missing copyright notice in polymode/polymode.el
+polymode/polymode-weave.el:;; Copyright (C) 2013-2019, Vitalie Spinu
+Missing copyright notice in polymode/polymode-weave.el
+polymode/polymode-test-utils.el:;; Copyright (C) 2018-2019, Vitalie Spinu
+Missing copyright notice in polymode/polymode-test-utils.el
+polymode/polymode-tangle.el:;; Copyright (C) 2013-2019, Vitalie Spinu
+Missing copyright notice in polymode/polymode-tangle.el
+polymode/polymode-methods.el:;; Copyright (C) 2013-2019, Vitalie Spinu
+Missing copyright notice in polymode/polymode-methods.el
+polymode/polymode-export.el:;; Copyright (C) 2013-2019, Vitalie Spinu
+Missing copyright notice in polymode/polymode-export.el
+polymode/polymode-debug.el:;; Copyright (C) 2016-2018 Vitalie Spinu
+Missing copyright notice in polymode/polymode-debug.el
+polymode/polymode-core.el:;; Copyright (C) 2013-2019, Vitalie Spinu
+Missing copyright notice in polymode/polymode-core.el
+polymode/polymode-compat.el:;; Copyright (C) 2013-2019, Vitalie Spinu
+Missing copyright notice in polymode/polymode-compat.el
+polymode/polymode-classes.el:;; Copyright (C) 2013-2019, Vitalie Spinu
+Missing copyright notice in polymode/polymode-classes.el
+polymode/polymode-base.el:;; Copyright (C) 2013-2019, Vitalie Spinu
+Missing copyright notice in polymode/polymode-base.el
+polymode/poly-lock.el:;; Copyright (C) 2013-2019, Vitalie Spinu
+Missing copyright notice in polymode/poly-lock.el
+Build error for archive/polymode-0.2.2.tar: (error "Abort")
+######## Build of package archive/polymode-0.2.2.tar FAILED!!

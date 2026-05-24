@@ -1,0 +1,6 @@
+======== Building tarball archive/pspp-mode-1.1.tar...
+Problem with copyright notices:
+pspp-mode/pspp-mode.el:;; Copyright (C) 2000, 2003 Scott Andrew Borton <scott@pp.htv.fi>
+Missing copyright notice in pspp-mode/pspp-mode.el
+Build error for archive/pspp-mode-1.1.tar: (error "Abort")
+######## Build of package archive/pspp-mode-1.1.tar FAILED!!
