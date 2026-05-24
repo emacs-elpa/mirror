@@ -1,0 +1,3 @@
+======== Building tarball archive-devel/geiser-kawa-0.0.1.0.20200214.215451.tar...
+Build error for archive-devel/geiser-kawa-0.0.1.0.20200214.215451.tar: (error "Required geiser-20191025.650 > than available (0.33.0.20260510.191201)")
+######## Build of package archive-devel/geiser-kawa-0.0.1.0.20200214.215451.tar FAILED!!
