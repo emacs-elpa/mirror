@@ -3168,6 +3168,7 @@
   (urscript-mode :url "https://github.com/guidoschmidt/urscript-mode")
   (use-package-chords :url "https://github.com/waymondo/use-package-chords")
   (use-package-hydra :url "https://gitlab.com/to1ne/use-package-hydra")
+  (use-package-x :url "https://github.com/DevelopmentCool2449/use-package-x")
   (use-proxy :url "https://github.com/rayw000/use-proxy")
   (use-ttf :url "https://github.com/jcs-elpa/use-ttf")
   (ushin-shapes :url "https://git.sr.ht/~ushin/ushin-shapes.el")
