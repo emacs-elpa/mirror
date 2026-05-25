@@ -1,7 +1,7 @@
 #+title: Unofficial ELPA Mirror
 
-The mirror is automatically synchronized twice a day via efficient rsync by the
-[[https://github.com/emacs-elpa/mirror/blob/main/sync.sh][sync.sh]] shell script.
+The ELPA mirror is automatically synchronized twice a day via efficient rsync by
+the [[https://github.com/emacs-elpa/mirror/blob/main/sync.sh][sync.sh]] shell script.
 
 * Devel
 
@@ -28,3 +28,13 @@ The stable archives can be configured as follows:
                                    ("nongnu-stable" . 1)
                                    ("melpa-stable"  . 0)))
 #+end_src
+
+* Other mirrors and scripts
+
+Here you find other mirrors and scripts.
+
+- https://github.com/d12frosted/elpa-mirror
+- https://github.com/d12frosted/mirror-elpa
+- https://github.com/elpa-mirrors
+- https://github.com/emacsmirror
+- https://github.com/redguardtoo/elpa-mirror
