@@ -18,11 +18,7 @@ for (( i=0; i<${#archives[@]}; i+=2 )); do
 done
 
 git add -A
-
-if git diff --staged --quiet; then
-    echo "No changes"
-    exit 0
-fi
+git diff --staged --quiet && echo "No changes" && exit 0
 
 git config user.name "emacs-elpa"
 git config user.email "sync@emacs-elpa"

@@ -1,7 +1,10 @@
 #+title: Unofficial ELPA Mirror
 
 The ELPA mirror is automatically synchronized twice a day via efficient rsync by
-the [[https://github.com/emacs-elpa/mirror/blob/main/sync.sh][sync.sh]] shell script.
+the [[https://github.com/emacs-elpa/mirror/blob/main/sync.sh][sync.sh]] shell script. For each package devel and stable versions are
+provided. The mirror is small since only the latest tarball of each published
+package is kept. The .git directory has a size below 1 GiB. The uncompressed
+tarballs in [[https://github.com/emacs-elpa/mirror/tree/main/devel][devel/]] and [[https://github.com/emacs-elpa/mirror/tree/main/stable][stable/]] have a size a little above 2 GiB.
 
 * Devel
 
