@@ -101,7 +101,3 @@ of code in braces) in the current buffer, with support for
 
 Parsing is also used for Imenu support, for xref support and for
 navigation commands, these are installed by `javaimp-minor-mode'.
-
-`javaimp-imenu-use-sub-alists': if non-nil then Imenu items are
-presented in a nested fashion, instead of a flat list (default is
-flat list).

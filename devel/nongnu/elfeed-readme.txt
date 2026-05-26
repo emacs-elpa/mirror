@@ -379,8 +379,9 @@ database format is stable and is never expected to change.
 
   The `elfeed-feeds' variable allows you to set options per feed as a
   plist in addition to the auto tags which come after the options. The
-  options can be accessed via `(elfeed-meta feed :key)'. Right now
-  Elfeed supports these keys:
+  options can be accessed like the usual metadata via `(elfeed-meta feed
+  :key)'. Right now Elfeed supports these special keys which you may
+  want to override in the `elfeed-feeds' list.
 
   • `:no-update' : Prevent a feed from updating when invoking
     `elfeed-update'.
@@ -389,12 +390,13 @@ database format is stable and is never expected to change.
   • `:readable' : Enable readable mode in the `elfeed-show' buffer.
   • `:show-entry' : Specify an alternative show function, e.g.,
     `browse-url'.
+  • `:title' : Override the feed title.
 
   Example:
 
   ┌────
   │ (setq elfeed-feeds
-  │       '(("https://planet.emacslife.com/atom.xml" :no-update t emacs)
+  │       '(("https://planet.emacslife.com/atom.xml" :no-update t :title "Planetemacs" emacs)
   │         ("https://sachachua.com/blog/category/emacs-news/feed/" :show-entry eww-browse-url emacs)
   │         ("https://www.debian.org/security/dsa" :fetch-link replace :readable t security)))
   └────
