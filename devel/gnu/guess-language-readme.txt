@@ -245,7 +245,7 @@
   │ symbol).  BEGINNING and END are the endpoints of the region in
   │ which LANG was detected but these are ignored."
   │   (when (and (featurep 'festival)
-  │ 	     (festivalp))
+  │              (festivalp))
   │     (pcase lang
   │       ('en (festival-voice-english-female))
   │       ('de (festival-voice-german-female)))))

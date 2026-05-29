@@ -330,6 +330,35 @@ Table of Contents
         message in the echo area which is basically the same as the
         desktop notification.
 
+        This hook can be used as an extension point for custom
+        notification mechanisms. To replace or augment the default
+        desktop notification, remove `tmr-notification-notify' and add
+        your own function:
+
+        ┌────
+        │ (remove-hook 'tmr-timer-finished-functions #'tmr-notification-notify)
+        │ (add-hook 'tmr-timer-finished-functions #'my-custom-notify-function)
+        └────
+
+        The function receives a timer.
+
+        Below is an example of how a macOS notification could be
+        produced:
+
+        ┌────
+        │ (defun my-macos-notify (timer)
+        │   (let* ((description (or (tmr--timer-description timer) ""))
+        │          (sanitized-body (substring-no-properties description))
+        │          (script (format "display notification %S with title %S sound name %S"
+        │                              sanitized-body
+        │                              (format-time-string "Emacs TMR: %R" (tmr--timer-end-date timer))
+        │                              "Hero")))
+        │     (call-process "osascript" nil 0 nil "-e" script)))
+        │ 
+        │ (remove-hook 'tmr-timer-finished-functions #'tmr-notification-notify)
+        │ (add-hook 'tmr-timer-finished-functions #'my-macos-notify)
+        └────
+
   `tmr-timer-cancelled-functions'
         This is called by `tmr-cancel'.  By default, it prints a message
         in the echo area describing the timer that was cancelled.
@@ -463,7 +492,7 @@ Table of Contents
 
   Authors
         Protesilaos (maintainer), Carlos Pajuelo Rojo, Damien Cassou,
-        Daniel Mendler, Óscar Fuentes, Steven Allen.
+        Daniel Mendler, Óscar Fuentes, Pavlo Lysov, Steven Allen.
 
   Contributions to the code or manual
         Christian Tietze, Ed Tavinor, Eugene Mikhaylov, Karol Mróz,
