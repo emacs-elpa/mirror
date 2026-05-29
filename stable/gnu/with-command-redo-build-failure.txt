@@ -1,6 +1,0 @@
-======== Building tarball archive/with-command-redo-0.1.tar...
-Problem with copyright notices:
-with-command-redo/with-command-redo.el:;; Copyright (C) 2026  Campbell Barton
-Missing copyright notice in with-command-redo/with-command-redo.el
-Build error for archive/with-command-redo-0.1.tar: (error "Abort")
-######## Build of package archive/with-command-redo-0.1.tar FAILED!!

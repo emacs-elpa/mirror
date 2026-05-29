@@ -1,5 +1,0 @@
-======== Building tarball archive/epoch-view-0.0.1.tar...
-Problem with copyright notices:
-epoch-view/epoch-view.el:;; Copyright (C) 2010
-Build error for archive/epoch-view-0.0.1.tar: (error "Abort")
-######## Build of package archive/epoch-view-0.0.1.tar FAILED!!

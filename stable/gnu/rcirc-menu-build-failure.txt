@@ -1,3 +1,0 @@
-======== Building tarball archive/rcirc-menu-1.1.tar...
-Build error for archive/rcirc-menu-1.1.tar: (error "Package lacks a file header")
-######## Build of package archive/rcirc-menu-1.1.tar FAILED!!

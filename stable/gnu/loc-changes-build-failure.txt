@@ -1,7 +1,0 @@
-======== Building tarball archive/loc-changes-1.3.tar...
-Problem with copyright notices:
-loc-changes/el-get-install.el:;; Copyright (C) 2010 Dimitri Fontaine
-Missing copyright notice in loc-changes/el-get-install.el
-Missing copyright notice in loc-changes/cask-install.el
-Build error for archive/loc-changes-1.3.tar: (error "Abort")
-######## Build of package archive/loc-changes-1.3.tar FAILED!!

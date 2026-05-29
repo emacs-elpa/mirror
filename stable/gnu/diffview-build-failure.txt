@@ -1,6 +1,0 @@
-======== Building tarball archive/diffview-1.0.tar...
-Problem with copyright notices:
-diffview/diffview.el:;; Copyright (C) 2013-2015, Mitchel Humpherys
-Missing copyright notice in diffview/diffview.el
-Build error for archive/diffview-1.0.tar: (error "Abort")
-######## Build of package archive/diffview-1.0.tar FAILED!!

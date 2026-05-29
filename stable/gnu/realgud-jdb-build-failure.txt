@@ -1,3 +1,0 @@
-======== Building tarball archive/realgud-jdb-1.0.0.tar...
-Build error for archive/realgud-jdb-1.0.0.tar: (error "Can't find main file /home/elpa/elpa/packages/realgud-jdb/realgud-jdb.el file in /home/elpa/elpa/packages/realgud-jdb/")
-######## Build of package archive/realgud-jdb-1.0.0.tar FAILED!!

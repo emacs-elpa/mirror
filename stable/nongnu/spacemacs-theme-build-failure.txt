@@ -1,3 +1,0 @@
-======== Building tarball archive/spacemacs-theme-0.2.tar...
-Build error for archive/spacemacs-theme-0.2.tar: (error "Can't find main file /home/elpa/nongnu/packages/spacemacs-theme/spacemacs-theme.el file in /home/elpa/nongnu/packages/spacemacs-theme/")
-######## Build of package archive/spacemacs-theme-0.2.tar FAILED!!

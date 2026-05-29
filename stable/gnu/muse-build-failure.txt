@@ -1,3 +1,0 @@
-======== Building tarball archive/muse-3.20.2.tar...
-Build error for archive/muse-3.20.2.tar: (error "Can't find main file /home/elpa/elpa/packages/muse/lisp/muse.el file in /home/elpa/elpa/packages/muse/")
-######## Build of package archive/muse-3.20.2.tar FAILED!!

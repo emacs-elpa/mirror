@@ -1,6 +1,0 @@
-======== Building tarball archive/hook-helpers-1.1.1.tar...
-Problem with copyright notices:
-hook-helpers/hook-helpers-use-package.el:;; Copyright (c) 2017 Ian Dunn
-Missing copyright notice in hook-helpers/hook-helpers-use-package.el
-Build error for archive/hook-helpers-1.1.1.tar: (error "Abort")
-######## Build of package archive/hook-helpers-1.1.1.tar FAILED!!

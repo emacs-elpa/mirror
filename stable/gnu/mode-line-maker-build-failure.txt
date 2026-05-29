@@ -1,6 +1,0 @@
-======== Building tarball archive/mode-line-maker-0.1.tar...
-Problem with copyright notices:
-mode-line-maker/mode-line-maker.el:;; Copyright (C) 2025 Nicolas Rougier
-Missing copyright notice in mode-line-maker/mode-line-maker.el
-Build error for archive/mode-line-maker-0.1.tar: (error "Abort")
-######## Build of package archive/mode-line-maker-0.1.tar FAILED!!

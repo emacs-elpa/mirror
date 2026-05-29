@@ -1,6 +1,0 @@
-======== Building tarball archive/disproject-2.2.0.tar...
-Problem with copyright notices:
-disproject/disproject.el:;; Copyright (C) 2024-2025 aurtzy
-disproject/disproject.el:;; Copyright (C) 2008-2023 The Magit Project Contributors
-Build error for archive/disproject-2.2.0.tar: (error "Abort")
-######## Build of package archive/disproject-2.2.0.tar FAILED!!

@@ -1,3 +1,0 @@
-======== Building tarball archive/stylus-mode-1.0.1.tar...
-Build error for archive/stylus-mode-1.0.1.tar: (search-failed ";;; slylus-mode.el ends here")
-######## Build of package archive/stylus-mode-1.0.1.tar FAILED!!

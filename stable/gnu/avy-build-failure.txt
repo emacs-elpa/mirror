@@ -1,5 +1,0 @@
-======== Building tarball archive/avy-0.5.0.tar...
-Problem with copyright notices:
-Missing copyright notice in avy/targets/checkdoc.el
-Build error for archive/avy-0.5.0.tar: (error "Abort")
-######## Build of package archive/avy-0.5.0.tar FAILED!!

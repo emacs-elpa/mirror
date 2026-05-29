@@ -1,6 +1,0 @@
-======== Building tarball archive/cus-abbrev-0.1.tar...
-Problem with copyright notices:
-cus-abbrev/cus-abbrev.el:;; Copyright (C) 2025  Mauro Aranda
-Missing copyright notice in cus-abbrev/cus-abbrev.el
-Build error for archive/cus-abbrev-0.1.tar: (error "Abort")
-######## Build of package archive/cus-abbrev-0.1.tar FAILED!!

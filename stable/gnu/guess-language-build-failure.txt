@@ -1,5 +1,0 @@
-======== Building tarball archive/guess-language-0.0.1.tar...
-Problem with copyright notices:
-Missing copyright notice in guess-language/guess-language.el
-Build error for archive/guess-language-0.0.1.tar: (error "Abort")
-######## Build of package archive/guess-language-0.0.1.tar FAILED!!

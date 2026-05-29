@@ -1,3 +1,0 @@
-======== Building tarball archive/timerfunctions-1.4.2.tar...
-Build error for archive/timerfunctions-1.4.2.tar: (error "Package lacks a file header")
-######## Build of package archive/timerfunctions-1.4.2.tar FAILED!!

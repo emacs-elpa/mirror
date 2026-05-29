@@ -1,3 +1,0 @@
-======== Building tarball archive/bind-key-2.4.1.tar...
-Build error for archive/bind-key-2.4.1.tar: (error "Can't find main file /home/elpa/elpa/packages/bind-key/bind-key.el file in /home/elpa/elpa/packages/bind-key/")
-######## Build of package archive/bind-key-2.4.1.tar FAILED!!

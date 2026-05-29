@@ -1,7 +1,0 @@
-======== Building tarball archive/f90-interface-browser-1.1.tar...
-Problem with copyright notices:
-Missing copyright notice in f90-interface-browser/f90-tests.el
-f90-interface-browser/f90-interface-browser.el:;; Copyright (C) 2011, 2012 Lawrence Mitchell <wence@gmx.li>
-Missing copyright notice in f90-interface-browser/f90-interface-browser.el
-Build error for archive/f90-interface-browser-1.1.tar: (error "Abort")
-######## Build of package archive/f90-interface-browser-1.1.tar FAILED!!
