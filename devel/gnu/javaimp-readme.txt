@@ -58,7 +58,8 @@ will be used in preference to `javaimp-mvn-program' /
 `javaimp-gradle-program'.
 
 `javaimp-java-home': defcustom giving location of JDK to use.
-Classes from JDK are included into import completion candidates.
+Classes from JDK are included into import completion candidates,
+except for java.lang.* by default (see `javaimp-exclude-imports').
 Also, when invoking a Java program, JAVA_HOME environment variable
 is added to the subprocess environment.  The variable is
 initialized from JAVA_HOME environment variable, so typically you
