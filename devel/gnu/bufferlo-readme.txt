@@ -753,10 +753,41 @@ Bookmark handler hooks
   be available when those functions are called.
 
   ┌────
+  │ (add-hook 'bufferlo-bookmark-map-functions #'buffer-bookmark-store-fun)
+  │ (add-hook 'bufferlo-bookmark-buffer-handler-functions #'buffer-bookmark-restore-fun)
   │ (add-hook 'bufferlo-bookmark-tab-handler-functions #'tab-bookmark-fun)
   │ (add-hook 'bufferlo-bookmark-frame-handler-functions #'frame-bookmark-fun)
   │ (add-hook 'bufferlo-bookmark-set-handler-functions #'set-bookmark-fun)
   └────
+
+  There are buffer-bookmark convenience functions you can use to persist
+  text-scale-mode-amount, and persist buffer-local variables (though you
+  should prefer [file-local variables], and directory variables
+  [directory variables] and take care to store buffer local variables
+  that you consider safe to restore, see [risky-local-variable-p]).
+
+  Note: These need to be bound before `bufferlo-mode' is enabled.
+
+  ┌────
+  │ ;; To persist text-scale-mode-amount
+  │ (setq bufferlo-bookmark-text-scale-mode-amount t)
+  └────
+
+  ┌────
+  │ ;; To persist buffer-local variables
+  │ (setq bufferlo-bookmark-buffer-locals t)
+  │ (setq bufferlo-bookmark-buffer-local-variables '(my:special-local-1 my:special-local-2))
+  └────
+
+
+[file-local variables]
+<https://www.gnu.org/software/emacs/manual/html_node/emacs/File-Variables.html>
+
+[directory variables]
+<https://www.gnu.org/software/emacs/manual/html_node/emacs/Directory-Variables.html>
+
+[risky-local-variable-p]
+<https://www.gnu.org/software/emacs/manual/html_node/elisp/File-Local-Variables.html#index-safe_002dlocal_002dvariable_002dp>
 
 
 Frame geometry options
@@ -1237,6 +1268,8 @@ Complete configuration sample
   │   (setq bufferlo-prefer-local-buffers 'tabs)
   │   (setq bufferlo-ibuffer-bind-local-buffer-filter t)
   │   (setq bufferlo-ibuffer-bind-keys t)
+  │   (setq bufferlo-bookmark-buffer-locals t)
+  │   (setq bufferlo-bookmark-text-scale-mode-amount t)
   │   :config
   │   (setq bufferlo-mode-line-prefix "🐃") ; "🐮"
   │   (setq bufferlo-mode-line-set-active-prefix "Ⓢ")
@@ -1277,6 +1310,7 @@ Complete configuration sample
   │   (setq bufferlo-bookmark-frame-save-on-delete 'when-bookmarked)
   │   (setq bufferlo-bookmark-tab-save-on-close 'when-bookmarked)
   │   (setq bufferlo-close-tab-kill-buffers-prompt t)
+  │   (setq bufferlo-bookmark-buffer-local-variables '(tab-width))
   │   (setq bufferlo-bookmark-frame-load-make-frame 'restore-geometry)
   │   (setq bufferlo-bookmark-frame-load-policy 'prompt)
   │   (setq bufferlo-bookmark-frame-duplicate-policy 'prompt)
