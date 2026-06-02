@@ -108,7 +108,7 @@ This package uses [Evil] as its vi layer.
 
   ┌────
   │ (add-hook 'c++-mode-hook (lambda ()
-  │ 			   (push '(?< . ("< " . " >")) evil-surround-pairs-alist)))
+  │                            (push '(?< . ("< " . " >")) evil-surround-pairs-alist)))
   └────
 
   Don't worry about having two entries for `<' surround will take the
@@ -120,7 +120,7 @@ This package uses [Evil] as its vi layer.
 
   ┌────
   │ (add-hook 'emacs-lisp-mode-hook (lambda ()
-  │ 				  (push '(?` . ("`" . "'")) evil-surround-pairs-alist)))
+  │                                   (push '(?` . ("`" . "'")) evil-surround-pairs-alist)))
   └────
 
   without affecting your Markdown surround pairs, where the default is
@@ -137,7 +137,7 @@ This package uses [Evil] as its vi layer.
 
   ┌────
   │ (setq-default evil-surround-pairs-alist
-  │ 	      (push '(?~ . ("``" . "``")) evil-surround-pairs-alist))
+  │               (push '(?~ . ("``" . "``")) evil-surround-pairs-alist))
   └────
 
 
@@ -150,12 +150,12 @@ This package uses [Evil] as its vi layer.
   │ ;; this macro was copied from here: https://stackoverflow.com/a/22418983/4921402
   │ (defmacro define-and-bind-quoted-text-object (name key start-regex end-regex)
   │   (let ((inner-name (make-symbol (concat "evil-inner-" name)))
-  │ 	(outer-name (make-symbol (concat "evil-a-" name))))
+  │         (outer-name (make-symbol (concat "evil-a-" name))))
   │     `(progn
   │        (evil-define-text-object ,inner-name (count &optional beg end type)
-  │ 	 (evil-select-paren ,start-regex ,end-regex beg end type count nil))
+  │          (evil-select-paren ,start-regex ,end-regex beg end type count nil))
   │        (evil-define-text-object ,outer-name (count &optional beg end type)
-  │ 	 (evil-select-paren ,start-regex ,end-regex beg end type count t))
+  │          (evil-select-paren ,start-regex ,end-regex beg end type count t))
   │        (define-key evil-inner-text-objects-map ,key #',inner-name)
   │        (define-key evil-outer-text-objects-map ,key #',outer-name))))
   │ 
@@ -191,7 +191,7 @@ This package uses [Evil] as its vi layer.
   └────
 
   note that the binding to `evil-some-local-(inner|outer)-keymap' is
-  purely for organizational perpouses, you can skip that step and do:
+  purely for organizational purposes, you can skip that step and do:
 
   ┌────
   │ (define-key evil-visual-state-local-map   "iQ" #'evil-inner-pipe)
@@ -218,9 +218,9 @@ This package uses [Evil] as its vi layer.
 
   ┌────
   │ (add-to-list 'evil-surround-operator-alist
-  │ 	     '(evil-paredit-change . change))
+  │              '(evil-paredit-change . change))
   │ (add-to-list 'evil-surround-operator-alist
-  │ 	     '(evil-paredit-delete . delete))
+  │              '(evil-paredit-delete . delete))
   └────
 
 
@@ -369,7 +369,7 @@ This package uses [Evil] as its vi layer.
 6 Credits
 ═════════
 
-  Credits and many [thanks] go to [Tim Harper], the original mantainer
+  Credits and many [thanks] go to [Tim Harper], the original maintainer
   of the package.
 
 

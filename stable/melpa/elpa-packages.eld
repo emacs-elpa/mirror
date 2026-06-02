@@ -3048,6 +3048,7 @@
   (tidal :url "https://codeberg.org/uzu/tidal")
   (tide :url "https://github.com/ananthakumaran/tide")
   (tiktoken :url "https://github.com/zkry/tiktoken.el")
+  (tiles :url "https://github.com/ctanas/tiles")
   (time-block :url "https://git.sr.ht/~swflint/time-block-command")
   (time-zones :url "https://github.com/xenodium/time-zones")
   (timeout :url "https://github.com/karthink/timeout")
