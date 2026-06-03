@@ -54,7 +54,7 @@ Here you find other mirrors and scripts.
 
 - https://github.com/d12frosted/elpa-mirror
 - https://github.com/d12frosted/mirror-elpa
-- https://github.com/delpa-org/
+- https://github.com/delpa-org
 - https://github.com/elpa-mirrors
 - https://github.com/emacsmirror
 - https://github.com/redguardtoo/elpa-mirror
