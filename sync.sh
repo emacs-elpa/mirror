@@ -13,7 +13,7 @@ for (( i=0; i<${#archives[@]}; i+=2 )); do
     src="${archives[i]}"
     dst="${archives[i+1]}"
     echo "================================ sync $src -> $dst ================================"
-    rsync --stats -az --delete --exclude-from=sync.exclude "$src" "$dst"
+    rsync --stats -az --delete --exclude-from=.gitignore "$src" "$dst"
     echo
 done
 
