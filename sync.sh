@@ -23,5 +23,10 @@ git diff --staged --quiet && echo "No changes" && exit 0
 git config user.name "emacs-elpa"
 git config user.email "sync@emacs-elpa"
 
-git commit -m "sync: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
-git push
+today=$(date -u +"%Y-%m-%d")
+git commit -m "sync: $today" &&
+    git tag --no-sign "$today" &&
+    git push origin HEAD --tags &&
+    exit 0
+
+exit 1
