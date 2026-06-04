@@ -1,11 +1,11 @@
 #+title: Unofficial ELPA Mirror
 
-This ELPA mirror is automatically synchronized once a day via efficient rsync by
-the [[https://github.com/emacs-elpa/mirror/blob/main/sync.sh][sync.sh]] shell script. For each package devel and stable versions are
-provided. The mirror is small since only the latest tarball of each published
-package is kept. As shallow clone, the .git directory has a size below 1 GiB.
-The uncompressed package tarballs in [[https://github.com/emacs-elpa/mirror/tree/main/devel][devel/]] and [[https://github.com/emacs-elpa/mirror/tree/main/stable][stable/]] have a size of around 2
-GiB.
+This ELPA mirror includes all of the widely used ELPAs and is automatically
+synchronized once a day via efficient rsync by the [[https://github.com/emacs-elpa/mirror/blob/main/sync.sh][sync.sh]] shell script. For
+each package devel and stable versions are provided. The mirror is small since
+only the latest tarball of each published package is kept. As shallow clone, the
+.git directory has a size below 1 GiB. The uncompressed package tarballs in
+[[https://github.com/emacs-elpa/mirror/tree/main/devel][devel/]] and [[https://github.com/emacs-elpa/mirror/tree/main/stable][stable/]] have a size of around 2 GiB.
 
 * Devel
 
@@ -17,7 +17,8 @@ The devel archives can be configured as follows:
                          ("melpa-devel"  . "https://raw.githubusercontent.com/emacs-elpa/mirror/main/devel/melpa/"))
       package-archive-priorities '(("gnu-devel"    . 2)
                                    ("nongnu-devel" . 1)
-                                   ("melpa-devel"  . 0)))
+                                   ("melpa-devel"  . 0))
+      packag-review-policy t)
 #+end_src
 
 * Stable
@@ -30,7 +31,8 @@ The stable archives can be configured as follows:
                          ("melpa-stable"  . "https://raw.githubusercontent.com/emacs-elpa/mirror/main/stable/melpa/"))
       package-archive-priorities '(("gnu-stable"    . 2)
                                    ("nongnu-stable" . 1)
-                                   ("melpa-stable"  . 0)))
+                                   ("melpa-stable"  . 0))
+      packag-review-policy t)
 #+end_src
 
 * Daily tags
@@ -45,7 +47,8 @@ the daily snapshots of all archives as follows, for instance for the date
                          ("melpa-devel"  . "https://raw.githubusercontent.com/emacs-elpa/mirror/refs/tags/2026-06-03/devel/melpa/"))
       package-archive-priorities '(("gnu-devel"    . 2)
                                    ("nongnu-devel" . 1)
-                                   ("melpa-devel"  . 0)))
+                                   ("melpa-devel"  . 0))
+      packag-review-policy t)
 #+end_src
 
 * Other mirrors and scripts
@@ -56,5 +59,6 @@ Here you find other mirrors and scripts.
 - https://github.com/d12frosted/mirror-elpa
 - https://github.com/delpa-org
 - https://github.com/elpa-mirrors
+- https://github.com/emacs-straight
 - https://github.com/emacsmirror
 - https://github.com/redguardtoo/elpa-mirror
