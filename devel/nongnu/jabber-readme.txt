@@ -18,6 +18,11 @@
     ⁃ [Upstream]
     ⁃ [Codeberg] /Mirror/
 
+  ⁃ Discuss the project in these XMPP MUCs:
+    ⁃ `jabber-el@conference.hmm.st' for the project
+    ⁃ `emacs@conference.conversations.im' for Emacs peer support
+      including jabber.el
+
 
 [XMPP] <http://xmpp.org>
 
@@ -80,7 +85,8 @@
   │   :vc (:url "https://git.thanosapollo.org/emacs-jabber/"
   │             :branch "master"
   │             :rev :newest
-  │             :lisp-dir "lisp")
+  │             :lisp-dir "lisp"
+  │             :doc "README.org")
   │   :custom
   │   (jabber-account-list '(("user@example.org")))
   │   :config
