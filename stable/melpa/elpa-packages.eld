@@ -794,6 +794,7 @@
   (elfeed-summary :url "https://github.com/SqrtMinusOne/elfeed-summary")
   (elfeed-tube :url "https://github.com/karthink/elfeed-tube")
   (elfeed-tube-mpv :url "https://github.com/karthink/elfeed-tube")
+  (elfeed-web :url "https://github.com/emacs-elfeed/elfeed-web")
   (elgrep :url "https://github.com/TobiasZawada/elgrep")
   (elisa :url "https://github.com/s-kostyaev/elisa")
   (elisp-def :url "https://github.com/Wilfred/elisp-def")
