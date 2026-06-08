@@ -291,7 +291,7 @@ This package uses [Evil] as its vi layer.
   └────
 
   Finally, let's try out visual mode. Press a capital V (for linewise
-  visual mode) followed by `S<p class'"important">=.
+  visual mode) followed by `S<p class="important">'.
 
   ┌────
   │ <p class="important">

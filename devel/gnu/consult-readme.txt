@@ -621,7 +621,7 @@ Table of Contents
     files.
   • `#.* -F': Treat input as fixed string, and not as regular
     expression.
-  • `#foo bar -s': Treat input as case sensitive (`-s'), sensitive
+  • `#foo bar -s': Treat input as case sensitive (`-s'), insensitive
     (`-i'), or smart case (`-S').
 
   Input can come after the options and the dash can be escaped:
