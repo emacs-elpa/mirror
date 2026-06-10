@@ -24,8 +24,16 @@ git config user.name "emacs-elpa"
 git config user.email "sync@emacs-elpa"
 
 today=$(date -u +"%Y-%m-%d")
-git commit -m "sync: $today" &&
-    git tag --no-sign "$today" &&
+tag="$today"
+n=2
+
+while [[ -n "$(git tag -l "$tag")" ]]; do
+    tag="$today.$n"
+    n=$((n + 1))
+done
+
+git commit -m "sync: $tag" &&
+    git tag --no-sign "$tag" &&
     git push origin HEAD --tags &&
     exit 0
 
