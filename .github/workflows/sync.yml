@@ -1,7 +1,5 @@
 name: Sync
 on:
-  schedule:
-    - cron: '33 2,14 * * *'
   workflow_dispatch:
 permissions:
   contents: write
