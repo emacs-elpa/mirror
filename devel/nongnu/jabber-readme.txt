@@ -144,6 +144,23 @@
   package will be rebuilt from the updated checkout.
 
 
+3.3 Nix
+───────
+
+  The repository also ships a `shell.nix' with the native-module build
+  dependencies.
+
+  ┌────
+  │ make module
+  └────
+
+  To enter the same environment manually:
+
+  ┌────
+  │ nix-shell --pure shell.nix
+  └────
+
+
 4 Configuration
 ═══════════════
 

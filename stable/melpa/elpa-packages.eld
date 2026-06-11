@@ -1557,6 +1557,7 @@
   (ibrowse :url "https://git.sr.ht/~ngraves/ibrowse.el")
   (ibuffer-project :url "https://github.com/muffinmad/emacs-ibuffer-project")
   (ibuffer-projectile :url "https://github.com/purcell/ibuffer-projectile")
+  (ibuffer-sidebar :url "https://github.com/jojojames/ibuffer-sidebar")
   (ibuffer-tramp :url "https://github.com/svend/ibuffer-tramp")
   (ibuffer-vc :url "https://github.com/purcell/ibuffer-vc")
   (iceberg-theme :url "https://github.com/conao3/iceberg-theme.el")

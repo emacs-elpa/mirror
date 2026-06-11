@@ -1,12 +1,12 @@
 (1
  (adoc-mode
-  . [(0 9 0 0 20260605 19) ((emacs (28 1)))
+  . [(0 9 0 0 20260611 21) ((emacs (28 1)))
      "a major-mode for editing AsciiDoc files" tar
      ((:url . "https://github.com/bbatsov/adoc-mode")
       (:keywords "asciidoc" "text")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
       (:authors ("Florian Kaufmann" . "sensorflo@gmail.com"))
-      (:commit . "b6f0205742d965f3586e83506d003d1b002ac955"))])
+      (:commit . "9857e72f953642cedc1286a04aebb7203226e6a8"))])
  (afternoon-theme
   . [(0 1 0 20140104 185934) ((emacs (24 1)))
      "Dark color theme with a deep blue background" tar
@@ -45,12 +45,12 @@
       (:authors ("Alex Kost" . "alezost@gmail.com"))
       (:commit . "b1f97e4bc0dc6ec91c7e9999fbe9fa371016463b"))])
  (ample-theme
-  . [(0 3 0 0 20240426 84530) nil "Calm Dark Theme for Emacs" tar
+  . [(0 3 0 0 20260611 50) nil "Calm Dark Theme for Emacs" tar
      ((:url . "https://github.com/jordonbiondo/ample-theme")
       (:keywords "theme" "dark")
       (:maintainer "Jordon Biondo" . "jordonbiondo@gmail.com")
       (:authors ("Jordon Biondo" . "jordonbiondo@gmail.com"))
-      (:commit . "39ac29cf9a1229bb076964335fbd71cfb52e498b"))])
+      (:commit . "6952b29a588c854084ca1360bed16c9bc2d48e37"))])
  (annotate
   . [(2 5 0 0 20260514 132017) ((emacs (27 1)))
      "annotate files without changing them" tar
@@ -221,7 +221,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(1 22 0 20260605 154)
+  . [(1 22 0 20260611 156)
      ((emacs (28)) (clojure-mode (5 19)) (compat (30))
       (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
       (sesman (0 3 2)) (transient (0 4 1)))
@@ -235,7 +235,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "fde137ceb6ef744d5e16cab217802727e728e3cc"))])
+      (:commit . "9d2e84d0da1e6ee34df62df0e096d0bd96626854"))])
  (clojure-mode
   . [(5 23 0 0 20260325 143544) ((emacs (27 1)))
      "Major mode for Clojure code" tar
@@ -473,7 +473,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(4 0 0 0 20260609 9) ((emacs (28 1)) (compat (31)))
+  . [(4 0 1 0 20260611 0) ((emacs (28 1)) (compat (31)))
      "An Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -482,10 +482,10 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "965ebc8625ecaf869e6d7d14a528b9d9cd728693"))])
+      (:commit . "90470c3ff7cf215771f31e8c5e4b08fe6ad8f65b"))])
  (elfeed-web
-  . [(4 0 0 0 20260606 0)
-     ((emacs (28 1)) (compat (31)) (elfeed (3 4 2))
+  . [(4 0 0 0 20260611 1)
+     ((emacs (28 1)) (compat (31)) (elfeed (4 0 0))
       (simple-httpd (1 6)))
      "Web interface to Elfeed" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed-web")
@@ -495,7 +495,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "e947501a29457a55dfb0828aa791185c6b41bc37"))])
+      (:commit . "0bef963f7eaccee21571844730586d8dafa4249f"))])
  (elixir-mode
   . [(2 5 0 0 20230626 143859) ((emacs (25)))
      "Major mode for editing Elixir files" tar
@@ -1013,7 +1013,7 @@
       (:authors ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
       (:commit . "bf143ee8382f09e0a68d775d80445065f32929c3"))])
  (helm
-  . [(4 0 7 0 20260609 15) ((helm-core (4 0 7)) (wfnames (1 2)))
+  . [(4 0 7 0 20260611 16) ((helm-core (4 0 7)) (wfnames (1 2)))
      "Helm is an Emacs incremental and narrowing framework" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:keywords "helm" "convenience" "files" "buffers" "grep"
@@ -1021,14 +1021,14 @@
 		 "package")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "46b821d3bf8d5a4a53b2f6915ce59fd623720be9"))])
+      (:commit . "1a37057a9a92d7e9a77182791d2a20618e47a66c"))])
  (helm-core
-  . [(4 0 7 0 20260609 15) ((emacs (25 1)) (async (1 9 9)))
+  . [(4 0 7 0 20260611 16) ((emacs (25 1)) (async (1 9 9)))
      "Development files for Helm" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "46b821d3bf8d5a4a53b2f6915ce59fd623720be9"))])
+      (:commit . "1a37057a9a92d7e9a77182791d2a20618e47a66c"))])
  (hideshowvis
   . [(0 9 0 20251119 95800) ((emacs (27 1)))
      "Fringe markers for regions foldable by hideshow.el" tar
@@ -1159,14 +1159,14 @@
       (:keywords "j" "languages")
       (:commit . "e49ef0692d73b320c281e40d9fa96b2c17073695"))])
  (jabber
-  . [(0 10 10 0 20260608 54)
+  . [(0 10 10 0 20260611 56)
      ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
      "XMPP/Jabber client" tar
      ((:url . "https://codeberg.org/emacs-jabber/emacs-jabber")
       (:keywords "comm")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Magnus Henoch" . "mange@freemail.hu"))
-      (:commit . "dfe9d208bdc71bd7aae55e893235bedbf7de7d39"))])
+      (:commit . "2a0846af194ffb2c893809d7da6b883b0c02a856"))])
  (jade-mode
   . [(1 0 1 0 20211019 161323) nil
      "Major mode for editing .jade files" tar
@@ -1604,14 +1604,14 @@
       (:authors ("Andreas Politz" . "mail@andreas-politz.de"))
       (:commit . "365f88238f46f9b1425685562105881800f10386"))])
  (pg
-  . [(0 67 0 20260607 0) ((emacs (28 1)) (peg (1 0 1)))
+  . [(0 67 0 20260610 2) ((emacs (28 1)) (peg (1 0 1)))
      "Socket-level interface to the PostgreSQL database" tar
      ((:url . "https://github.com/emarsden/pg-el")
       (:keywords "data" "comm" "database" "postgresql")
       (:maintainer "Eric Marsden"
 		   . "eric.marsden@risk-engineering.org")
       (:authors ("Eric Marsden" . "eric.marsden@risk-engineering.org"))
-      (:commit . "7426269673da42ed6706db44d2b7d1696ede95f6"))])
+      (:commit . "e1e290bff64f4dedeaf6a3d03eaf06b2ab7284d7"))])
  (php-mode
   . [(1 26 1 0 20251112 64638) ((emacs (27 1)))
      "Major mode for editing PHP code" tar
@@ -1846,13 +1846,13 @@
       (:authors ("Matus Goljer" . "matus.goljer@gmail.com"))
       (:commit . "82d2cf084a19b0c2c3812e0550721f8a61996056"))])
  (solarized-theme
-  . [(2 1 0 0 20260329 155902) ((emacs (24 1)))
-     "The Solarized color theme" tar
+  . [(2 1 0 0 20260610 7) ((emacs (24 1))) "The Solarized color theme"
+     tar
      ((:url . "http://github.com/bbatsov/solarized-emacs")
       (:keywords "convenience" "themes" "solarized")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
       (:authors ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
-      (:commit . "0972a0f1471ed67211b7c8918a3c049380050d7b"))])
+      (:commit . "0d9d9efff196d8d8ee4ac606e70bf062a057136b"))])
  (spacemacs-theme
   . [(0 2 0 20260523 125627) ((emacs (24)))
      "Color theme with a dark and light versions." tar
@@ -1899,12 +1899,12 @@
       (:authors ("John Olsson" . "john@cryon.se"))
       (:commit . "d61acae1ddb6830f98dbd9d2e82a9fb42833bd1b"))])
  (subed
-  . [(1 5 0 0 20260531 1) ((emacs (25 1)))
+  . [(1 5 1 0 20260610 0) ((emacs (25 1)))
      "A major mode for editing subtitles" tar
      ((:url . "https://github.com/sachac/subed")
       (:keywords "convenience" "files" "hypermedia" "multimedia")
       (:maintainer "Sacha Chua" . "sacha@sachachua.com")
-      (:commit . "df63931c4165c25b79ccbe0050974a81eaf5ec49"))])
+      (:commit . "12386508eab140ee6c7d83654a162dbf52b0bf93"))])
  (sweeprolog
   . [(0 27 6 0 20260510 162905) ((emacs (27 1)) (compat (29 1 4 2)))
      "Embedded SWI-Prolog" tar
@@ -2115,11 +2115,11 @@
       (:authors ("Joost Kremers" . "joostkremers@fastmail.fm"))
       (:commit . "e1be9a1545157d24454d950c0ac79553c540edb7"))])
  (vm
-  . [(8 3 30 20260607 31) ((emacs (28 1)) (vcard (0 2 2)))
+  . [(8 3 30 20260610 33) ((emacs (28 1)) (vcard (0 2 2)))
      "VM mail reader" tar
      ((:url . "https://gitlab.com/emacs-vm/vm") (:keywords "mail")
       (:maintainer nil . "viewmail-info@nongnu.org")
-      (:commit . "7640eda4df2fc587f348218e3c44ba05db935bd5"))])
+      (:commit . "2f33c4bb2d2e8ac6f0f63f62b60dda439b1d07ce"))])
  (web-mode
   . [(17 3 23 0 20260331 144101) ((emacs (24 3 1)))
      "major mode for editing web templates" tar
