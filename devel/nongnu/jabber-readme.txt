@@ -15,8 +15,7 @@
   ⁃ [Homepage]
 
   ⁃ Source:
-    ⁃ [Upstream]
-    ⁃ [Codeberg] /Mirror/
+    ⁃ [Codeberg]
 
   ⁃ Discuss the project in these XMPP MUCs:
     ⁃ `jabber-el@conference.hmm.st' for the project
@@ -30,8 +29,6 @@
 
 [Homepage] <https://thanosapollo.org/projects/jabber/>
 
-[Upstream] <https://git.thanosapollo.org/emacs-jabber/>
-
 [Codeberg] <https://codeberg.org/emacs-jabber/emacs-jabber/>
 
 
@@ -44,15 +41,12 @@
 2.1 OMEMO encryption (optional)
 ───────────────────────────────
 
-  OMEMO end-to-end encryption uses a native C module.  Build
-  dependencies: a C compiler, `pkg-config', and `libmbedtls'.
+  OMEMO end-to-end encryption uses a native C module built from the
+  vendored [picomemo] source.  Build dependencies: a C compiler,
+  `pkg-config', and Mbed TLS 3.0 or later (`mbedcrypto').
 
-  On first use of OMEMO, Emacs offers to fetch [picomemo] and build
-  `jabber-omemo-core' in place.  This works for all install methods
-  (`git clone', `package-vc', and NonGNU ELPA) provided the install
-  directory is writable and the build dependencies are present.
-
-  If you prefer to build manually:
+  Build the module manually from the jabber source or ELPA/package
+  directory:
 
   ┌────
   │ cd /path/to/jabber-source-or-elpa-dir
@@ -60,7 +54,8 @@
   └────
 
   The resulting `jabber-omemo-core.so' (or `.dylib' on macOS) lands
-  beside the Elisp files and is loaded automatically.
+  beside the Elisp files and is loaded automatically.  If the module is
+  missing, OMEMO use signals `OMEMO module not compiled'.
 
 
 [picomemo] <https://github.com/mierenhoop/picomemo>
@@ -79,14 +74,20 @@
 3.1 package-vc (Emacs 30+)
 ──────────────────────────
 
+  Emacs honors package-vc build commands such as `:make' only when
+  `package-vc-allow-build-commands' allows the package.
+
   ┌────
+  │ (setq package-vc-allow-build-commands '(jabber))
+  │ 
   │ (use-package jabber
   │   :ensure nil
-  │   :vc (:url "https://git.thanosapollo.org/emacs-jabber/"
+  │   :vc (:url "https://codeberg.org/emacs-jabber/emacs-jabber.git"
   │             :branch "master"
   │             :rev :newest
   │             :lisp-dir "lisp"
-  │             :doc "README.org")
+  │             :doc "README.org"
+  │             :make "module")
   │   :custom
   │   (jabber-account-list '(("user@example.org")))
   │   :config
@@ -96,68 +97,53 @@
   └────
 
 
-3.2 GNU Guix
-────────────
-
-  The repository ships a `guix.scm' that builds straight from the
-  current working tree, so you never need to update hashes or pin a
-  commit.  Whatever is checked out is what gets installed.  Picomemo is
-  fetched as a pinned input by `guix.scm', so the optional OMEMO
-  submodule does not need to be initialised.
+3.2 straight.el
+───────────────
 
   ┌────
-  │ git clone https://git.thanosapollo.org/emacs-jabber/
-  │ cd emacs-jabber
+  │ (use-package jabber
+  │   :straight `(jabber
+  │               :type git
+  │               :host codeberg
+  │               :repo "emacs-jabber/emacs-jabber"
+  │               :branch "master"
+  │               :files ("lisp/*.el"
+  │                       "lisp/jabber-omemo-core.so"
+  │                       "lisp/jabber-omemo-core.dylib")
+  │               :pre-build ,(pcase system-type
+  │                             ('berkeley-unix '(("gmake" "module" "CC=clang")))
+  │                             ('darwin '(("make" "module" "CC=clang")))
+  │                             (_ '(("make" "module")))))
+  │   :custom
+  │   (jabber-account-list '(("user@example.org")))
+  │   :config
+  │   (jabber-modeline-mode 1)
+  │   :bind-keymap (("C-x C-j" . jabber-global-keymap))
+  │   :hook (kill-emacs . jabber-disconnect))
   └────
-
-  One-shot install into your user profile:
-
-  ┌────
-  │ guix package -f guix.scm
-  └────
-
-  A development shell with all build dependencies:
-
-  ┌────
-  │ guix shell -D -f guix.scm
-  └────
-
-  To use `emacs-jabber' from a Guix Home configuration, load the package
-  definition and reference it from your services:
-
-  ┌────
-  │ (use-modules (gnu home)
-  │              (gnu home services)
-  │              (gnu home services guix)
-  │              (gnu services)
-  │              (guix channels)
-  │              (guix gexp))
-  │ 
-  │ (define emacs-jabber-git
-  │   (load "/path/to/emacs-jabber/guix.scm"))
-  │ 
-  │ (home-environment
-  │  (packages (list emacs-jabber-git)))
-  └────
-
-  Re-run `guix home reconfigure' after pulling new commits and the
-  package will be rebuilt from the updated checkout.
 
 
 3.3 Nix
 ───────
 
-  The repository also ships a `shell.nix' with the native-module build
-  dependencies.
+  The repository ships a `flake.nix' with Emacs, test, lint, and
+  native-module build dependencies.
 
   ┌────
+  │ make test
   │ make module
   └────
 
   To enter the same environment manually:
 
   ┌────
-  │ nix-shell --pure shell.nix
+  │ nix develop
+  └────
+
+  To run the isolated Nix checks:
+
+  ┌────
+  │ nix flake check
   └────
 
 
