@@ -5094,7 +5094,7 @@
   (search-web :url "https://github.com/tomoya/search-web.el")
   (searcher :url "https://github.com/jcs-elpa/searcher")
   (searchq :url "https://github.com/tcw165/searchq")
-  (secretaria :url "https://gitlab.com/shackra/secretaria")
+  (secretaria :url "https://github.com/emacsattic/secretaria")
   (see-mode :url "https://github.com/marcelino-m/see-mode")
   (seeing-is-believing :url "https://github.com/jcinnamond/seeing-is-believing")
   (seethru :url "https://github.com/Benaiah/seethru")
