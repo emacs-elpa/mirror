@@ -4,9 +4,6 @@
            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-
-
-
 1 Overview
 ══════════
 
@@ -32,20 +29,30 @@
   │   :after latex
   │   :bind
   │   (:map LaTeX-mode-map
-  │ 	("C-c k" . auctex-cont-latexmk-toggle)))
+  │         ("C-c k" . auctex-cont-latexmk-toggle)))
   └────
   Replace the keybinding with whatever you prefer (or delete it and just
   run the command via `M-x').
 
-  The command `auctex-cont-latexmk-toggle' behaves the way that I prefer
-  – it enables both `auctex-cont-latexmk-mode' and `flymake-mode',
-  restricting the backends for the latter to those coming from the
-  former.  If you want to use continuous compilation but no flymake,
-  then you might instead wish to bind a key to
-  `auctex-cont-latexmk-mode' or simply do `M-x
-  auctex-cont-latexmk-mode'.  If you already use flymake for something
-  else in tex buffers, then you might wish to write your own "wrapper"
-  for `auctex-cont-latexmk-mode' akin to `auctex-cont-latexmk-toggle'.
+  The command `auctex-cont-latexmk-toggle' behaves as follows:
+
+  In single-file documents, it simply enables continuous compilation and
+  activates Flymake diagnostics in the current buffer.
+
+  In multifile documents (documents with a master file and included
+  files), you can use `auctex-cont-latexmk-toggle' independently in each
+  included file you are editing.  The package is designed explicitly to
+  support multiple buffers simultaneously, all sharing a single
+  continuous compilation process for the same master file.  Flymake
+  diagnostics will appear directly in each buffer where they occur,
+  making error tracking easy and intuitive.  Compilation continues to
+  run until you've explicitly disabled `auctex-cont-latexmk-mode' in
+  every participating buffer.
+
+  If you prefer continuous compilation without automatic Flymake
+  activation (e.g., if you already manage Flymake separately), you may
+  wish instead to directly call `auctex-cont-latexmk-mode' rather than
+  the toggle command.
 
   The way the Flymake backend works, it will update only when the
   latexmk process reaches a "watching for changes" state and the buffer
@@ -63,8 +70,8 @@
   │   (flymake-show-diagnostics-at-end-of-line t)
   │   :bind
   │   (:map flymake-mode-map
-  │ 	("M-n" . flymake-goto-next-error)
-  │ 	("M-p" . flymake-goto-prev-error)))
+  │         ("M-n" . flymake-goto-next-error)
+  │         ("M-p" . flymake-goto-prev-error)))
   └────
 
   I also bind `flymake-show-diagnostics-buffer', which gives an overview
@@ -109,6 +116,9 @@
   • This package respects the AUCTeX variable `TeX-output-dir': you can
     use that variable to control where the output files generated via
     latexmk are placed.
+  • It also respects AUCTeX's mechanisms for filtering warnings and
+    errors, in particular the variable `TeX-ignore-warnings', which may
+    be used to exclude certain warnings.
 
 
 5 Troubleshooting
