@@ -132,7 +132,7 @@
   │   (print (format "%s" foo)))
   │ 
   │ (xml-rpc-method-call-async 'cb-foo "http://localhost:80/RPC"
-  │ 			   'foo-method foo bar zoo)
+  │                            'foo-method foo bar zoo)
   └────
 
 
@@ -147,7 +147,7 @@
 
   ┌────
   │ (xml-rpc-method-call "http://betty.userland.com/rpc2"
-  │ 		     'examples.getStateName '(1))
+  │                      'examples.getStateName '(1))
   └────
 
   Results in:
@@ -163,7 +163,7 @@
   ┌────
   │ (mapconcat (lambda (s) (when s s))
   │   (xml-rpc-method-call "https://hexmode.wordpress.com/xmlrpc.php"
-  │ 		       'mt.supportedMethods)
+  │                        'mt.supportedMethods)
   │   ", ")
   └────
 
