@@ -31,7 +31,7 @@ Constructive criticism is welcome.  If you see a place for improvement,
 ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 
 _Recent breaking changes:_
-• Unreleased:
+• Version 0.16.0:
   • Using accumulation commands with different initial values for the
     same variable now signals an error instead of a warning.
   • Aliases made obsolete in version 0.14.0 have been removed.  They can
