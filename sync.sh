@@ -17,6 +17,8 @@ for (( i=0; i<${#archives[@]}; i+=2 )); do
     echo
 done
 
+find devel/ stable/ -type f -size +99M -delete
+
 git add -A
 git diff --staged --quiet && echo "No changes" && exit 0
 
