@@ -16,14 +16,7 @@ desired. And put the following expression into your ~/.emacs.
     (define-key ctl-x-r-map "\M-y" 'gather-matched-insert)
     (define-key ctl-x-r-map "\M-Y" 'gather-matched-insert-with-format)
     (define-key ctl-x-r-map "v" 'gather-matched-show)
-
-********** Emacs 22 or earlier **********
-    (require 'gather)
-    (global-set-key "\C-xr\M-w" 'gather-matching-kill-save)
-    (global-set-key "\C-xr\C-w" 'gather-matching-kill)
-    (global-set-key "\C-xr\M-y" 'gather-matched-insert)
-    (global-set-key "\C-xr\M-Y" 'gather-matched-insert-with-format)
-    (global-set-key "\C-xrv" 'gather-matched-show)
+    (define-key ctl-x-r-map "L" 'gather-matching-line-save)
 
 ## Usage:
 
@@ -32,6 +25,7 @@ desired. And put the following expression into your ~/.emacs.
 `C-x r M-y` : Insert killed text to point.
 `C-x r M-Y` : Insert killed text as formatted text to point.
 `C-x r v`   : View killed text status.
+`C-x r L`   : Kill the lines matching to regexp in current-buffer.
 
 Why gather.el?
 
