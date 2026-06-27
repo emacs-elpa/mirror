@@ -1,0 +1,2 @@
+Usage:
+(require 'lockfile-mode)

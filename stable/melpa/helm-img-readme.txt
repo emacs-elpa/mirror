@@ -1,0 +1,9 @@
+TODO candidatesが単純リストの場合に対応
+TODO initializeとactionに任意の値を指定できるように
+TODO 画像の取得をdeferredで非同期化
+TODO ドキュメント書く
+TODO ローカルディレクトリを指定して画像を表示できるように
+TODO サムネイルの取得上限を設定できるように
+
+
+; Code

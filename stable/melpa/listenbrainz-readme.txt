@@ -1,0 +1,4 @@
+- listen & submit metadata to ListenBrainz
+- partial & incomplete
+- no error checks
+- sync -> async

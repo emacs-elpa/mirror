@@ -1,0 +1,3 @@
+This is an Emacs extension that warns you when you are about to quit
+Emacs and leaving a git repository that has some file opened in Emacs
+in a dirty state: uncommitted changes, unpushed commits, etc...

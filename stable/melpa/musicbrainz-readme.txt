@@ -1,0 +1,4 @@
+- basic MusicBrainz interface
+- partial & incomplete
+- no error checks
+- sync -> async
