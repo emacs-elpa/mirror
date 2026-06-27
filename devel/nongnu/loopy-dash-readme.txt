@@ -29,14 +29,14 @@ packages `dash' and `loopy'.
 
 [Dash.el] <https://github.com/magnars/dash.el>
 
-[Loopy] <https://github.com/okamsn/loopy>
+[Loopy] <https://codeberg.org/okamsn/loopy>
 
 
 1 Installation
 ══════════════
 
   The package `loopy-dash' and the main package `loopy' are both
-  available from MELPA.
+  available from NonGNU ELPA and from MELPA.
 
 
 2 Documentation
@@ -45,6 +45,6 @@ packages `dash' and `loopy'.
   For information, about `dash.el', see
   <https://github.com/magnars/dash.el>.
 
-  For information about Loopy, see its repository on GitHub
-  (<https://github.com/okamsn/loopy>) or the Info documentation that is
-  provided by the package.
+  For information about Loopy, see its repository on Codeberg
+  (<https://codeberg.org/okamsn/loopy>) or the Info documentation that
+  is provided by the package.
