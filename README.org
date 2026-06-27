@@ -39,12 +39,12 @@ The stable archives can be configured as follows:
 
 For every daily synchronization a git tag ~%Y-%m-%d~ is created. One can access
 the daily snapshots of all archives as follows, for instance for the date
-~2026-06-03~:
+~2026-06-26~:
 
 #+begin_src emacs-lisp
-(setq package-archives '(("gnu-devel"    . "https://raw.githubusercontent.com/emacs-elpa/mirror/refs/tags/2026-06-03/devel/gnu/")
-                         ("nongnu-devel" . "https://raw.githubusercontent.com/emacs-elpa/mirror/refs/tags/2026-06-03/devel/nongnu/")
-                         ("melpa-devel"  . "https://raw.githubusercontent.com/emacs-elpa/mirror/refs/tags/2026-06-03/devel/melpa/"))
+(setq package-archives '(("gnu-devel"    . "https://raw.githubusercontent.com/emacs-elpa/mirror/refs/tags/2026-06-26/devel/gnu/")
+                         ("nongnu-devel" . "https://raw.githubusercontent.com/emacs-elpa/mirror/refs/tags/2026-06-26/devel/nongnu/")
+                         ("melpa-devel"  . "https://raw.githubusercontent.com/emacs-elpa/mirror/refs/tags/2026-06-26/devel/melpa/"))
       package-archive-priorities '(("gnu-devel"    . 2)
                                    ("nongnu-devel" . 1)
                                    ("melpa-devel"  . 0))

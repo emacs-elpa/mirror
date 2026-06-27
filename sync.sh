@@ -5,8 +5,8 @@ archives=(
     elpa.gnu.org::elpa/            stable/gnu
     elpa.nongnu.org::nongnu-devel/ devel/nongnu
     elpa.nongnu.org::nongnu/       stable/nongnu
-    melpa.org::packages/           devel/melpa
-    melpa.org::packages-stable/    stable/melpa
+    melpa.org::packages-snapshots/ devel/melpa
+    melpa.org::packages-releases/  stable/melpa
 )
 
 for (( i=0; i<${#archives[@]}; i+=2 )); do
