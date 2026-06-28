@@ -37,3 +37,8 @@ Export options:
 
 :json-postprocess (symbol) - How to postprocess the final output. Values are `pretty'
   (indent properly), `minimal' (remove whitespace), and nil (nothing, maybe faster?).
+
+:json-deterministic-refs (bool) - When non-nil, node refs are derived from
+  the element's :begin buffer position rather than a random number, producing
+  refs that are stable across repeated exports of identical source. Defaults
+  to nil (random refs, original behavior).
