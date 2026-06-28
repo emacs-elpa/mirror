@@ -5,7 +5,7 @@ synchronized once a day via efficient rsync by the [[https://github.com/emacs-el
 each package devel and stable versions are provided. The mirror is small since
 only the latest tarball of each published package is kept. As shallow clone, the
 .git directory has a size below 1 GiB. The uncompressed package tarballs in
-[[https://github.com/emacs-elpa/mirror/tree/main/devel][devel/]] and [[https://github.com/emacs-elpa/mirror/tree/main/stable][stable/]] have a size of around 2 GiB.
+[[https://github.com/emacs-elpa/mirror/tree/main/devel][devel/]] and [[https://github.com/emacs-elpa/mirror/tree/main/stable][stable/]] have a size of around 2.2 GiB.
 
 * Devel
 
@@ -35,7 +35,7 @@ The stable archives can be configured as follows:
       packag-review-policy t)
 #+end_src
 
-* Daily tags
+* Daily snapshots
 
 For every daily synchronization a git tag ~%Y-%m-%d~ is created. One can access
 the daily snapshots of all archives as follows, for instance for the date
