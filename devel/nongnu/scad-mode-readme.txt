@@ -36,7 +36,7 @@
 
 [ELPA] <https://elpa.nongnu.org/nongnu/scad-mode.html>
 
-[MELPA] <https://melpa.org/#/scad-mode>
+[MELPA] <https://releases.melpa.org/#/scad-mode>
 
 
 4 Related packages

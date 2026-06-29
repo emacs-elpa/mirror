@@ -820,7 +820,7 @@ Table of Contents
 
 [ELPA] <https://elpa.gnu.org/packages/consult.html>
 
-[MELPA] <https://melpa.org/#/consult>
+[MELPA] <https://releases.melpa.org/#/consult>
 
 [Consult wiki] <https://github.com/minad/consult/wiki>
 

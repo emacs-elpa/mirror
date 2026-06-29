@@ -70,7 +70,7 @@ are listed in `jinx-camel-modes'. For these modes composite words in
 
 [ELPA] <https://elpa.gnu.org/packages/jinx.html>
 
-[MELPA] <https://melpa.org/#/jinx>
+[MELPA] <https://releases.melpa.org/#/jinx>
 
 
 2 Configuration

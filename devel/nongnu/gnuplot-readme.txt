@@ -37,9 +37,9 @@ or above.
   less featureful.
 
 
-[ELPA] <https://elpa.nongnu.org/>
+[ELPA] <https://elpa.nongnu.org/nongnu/gnuplot.html>
 
-[MELPA] <https://melpa.org>
+[MELPA] <https://releases.melpa.org/#/gnuplot>
 
 [gnuplot-mode] <https://github.com/mkmcc/gnuplot-mode>
 

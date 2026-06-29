@@ -34,7 +34,7 @@ opens `DICOMDIR' directory files or DICOM image files interactively.
 
 [ELPA] <https://elpa.gnu.org/packages/dicom.html>
 
-[MELPA] <https://melpa.org/#/dicom>
+[MELPA] <https://releases.melpa.org/#/dicom>
 
 [DCMTK] <https://dcmtk.org/en/dcmtk/>
 
