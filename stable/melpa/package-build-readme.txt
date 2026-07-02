@@ -1,6 +1,8 @@
-This file allows a curator to publish an archive of Emacs packages.
+This package allows a curator to publish an Emacs Lisp package
+archive.  The archive is generated from a set of recipes, which
+describe Emacs Lisp projects and repositories from which to get
+them.
 
-The archive is generated from a set of recipes, which describe elisp
-projects and repositories from which to get them.  The term "package"
-here is used to mean a specific version of a project that is prepared
-for download and installation.
+This package is used by, and maintained as part of, MELPA.
+You can also use it to create your own ELPA with little effort,
+see https://codeberg.org/tarsius/myelpa/wiki.
