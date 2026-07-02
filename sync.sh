@@ -1,8 +1,8 @@
 #!/bin/bash
 
 archives=(
-    elpa.gnu.org::elpa-devel/      devel/gnu
-    elpa.gnu.org::elpa/            stable/gnu
+    elpa.gnu.org::gnu-devel/       devel/gnu
+    elpa.gnu.org::gnu/             stable/gnu
     elpa.nongnu.org::nongnu-devel/ devel/nongnu
     elpa.nongnu.org::nongnu/       stable/nongnu
     melpa.org::packages-snapshots/ devel/melpa
