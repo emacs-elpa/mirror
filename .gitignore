@@ -1,4 +1,7 @@
 *-build-failure.txt
+*.el
+*.el.sig
+*.gz
 *.html
 *.log
 *.lz
