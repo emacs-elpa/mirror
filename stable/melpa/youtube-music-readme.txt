@@ -19,7 +19,7 @@ Phase 1 ships the playback skeleton:
 Phase 2 adds the YouTube Music API client and search:
 
   - cookie-based authentication, stored in a 0600 credentials file,
-  - signed `youtubei/v1' POST requests with `SAPISIDHASH' auth,
+  - signed youtubei/v1 POST requests with SAPISIDHASH auth,
   - `M-x youtube-music-search' to find songs and play one.
 
 Phase 3 adds login/logout management and library browse:
@@ -35,6 +35,4 @@ restricting which client_ids may grant the YouTube Music scopes,
 so the unofficial-OAuth path is currently unreliable.  The cookie
 flow is robust and is used by `ytmusicapi' and `ytermusic' alike.
 
-Required external program: `mpv' with its built-in `ytdl_hook' Lua
-script (the default).  Install `yt-dlp' for newer YouTube payloads;
-mpv will pick it up automatically when present on PATH.
+Required external programs: `mpv' and `yt-dlp'.
