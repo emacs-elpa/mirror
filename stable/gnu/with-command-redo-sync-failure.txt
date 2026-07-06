@@ -1,0 +1,7 @@
+Upstream of with-command-redo has DIVERGED!
+
+  Local changes:
+a792d48806 2026-07  ideasman42@gma..  Add: with-command-redo-break to end an active chain
+
+  Upstream changes:
+4fcb6a584f 2026-07  ideasman42@gma..  Add: with-command-redo-break to end an active chain
