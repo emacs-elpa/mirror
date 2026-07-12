@@ -15,6 +15,8 @@ compiler[1], have a look at wispjs-mode[2].
 
 ChangeLog:
 
+ - 0.4.7: remove stray documentation
+ - 0.4.6: support moving by sexp inside a line and at the end of the line with C-M-f and C-M-b
  - 0.4.5: implement wisp--forward-sexp (C-M-f) and wisp--backward-sexp (C-M-b) to move within the same depth.
           wisp--tab (TAB) and wisp--backtab (S-TAB) now operate on the region if it is active
  - 0.4.4: implement wisp--down-list (C-M-d) to move downwards in indentation or parentheses
