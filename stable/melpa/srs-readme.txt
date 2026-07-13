@@ -5,23 +5,28 @@ This package implements a Spaced Repetition System (SRS) for
 creating and reviewing flashcards.  Flashcards can be embedded
 among your notes, or any text file, so long as you tell
 `srs.el' where to look for them--by setting
-`srs-path-list'. Implements Free Spaced Repetition Scheduler
-(FSRS) algorithm.
-https://github.com/open-spaced-repetition/fsrs4anki/wiki/ABC-of-FSRS
+`srs-path-list'.
 
 ┌──────────────┐
 │ Installation │
 └──────────────┘
-Example Elpaca + use-package instalation
+Example use-package instalation
 
  (use-package srs
-   :ensure (:host github :repo "Duncan-Britt/srs.el")
+   :ensure t
    :config
-   (add-to-list 'srs-path-list (expand-file-name "~/notes/*.org")))
+   (add-to-list 'srs-path-list (expand-file-name "~/notes/*.org"))
+   (srs-set-prefix-kbd "s-"))
 
-┌────────────────────────────┐
-│ Usage -- Making Flashcards │
-└────────────────────────────┘
+┌──────┐
+│ Menu │
+└──────┘
+M-x srs-menu provides a transient menu for accessing
+srs commands described below.
+
+┌───────────────────┐
+│ Making Flashcards │
+└───────────────────┘
 You can embed flashcards in any text file.  A typical flashcard
 looks like this:
 ┌──────────────────────────────────────────┐
@@ -89,29 +94,40 @@ Some examples:
 (add-to-list 'srs-path-list (expand-file-name "~/a/specific/file.txt"))
 (add-to-list 'srs-path-list (expand-file-name "~/even/source/code.el"))
 
-┌───────────────────────────────┐
-│ Usage -- Reviewing Flashcards │
-└───────────────────────────────┘
+┌──────────────────────┐
+│ Reviewing Flashcards │
+└──────────────────────┘
  M-x srs-review
 
 This is how you can review flashcards which are "due".
 
-┌─────────────────────────────┐
-│ Usage -- Editing Flashcards │
-└─────────────────────────────┘
+┌────────────────────┐
+│ Editing Flashcards │
+└────────────────────┘
 Just revise the text of your card where you wrote it.  You don't
 need to run any additional commands.  As long as the id is still
 present above your card, all is well.
 
-┌──────────────────────────────┐
-│ Usage -- Deleting Flashcards │
-└──────────────────────────────┘
+┌─────────────────────┐
+│ Deleting Flashcards │
+└─────────────────────┘
  M-x srs-card-delete-at-point
 
 Run this command with your cursor is over the line with <DESIGNATOR>: <ID>
 
-┌─────────────────────────┐
-│ Usage -- Transient Menu │
-└─────────────────────────┘
-M-x srs-menu provides a transient menu for accessing
-srs commands.
+┌───────────────┐
+│ Related works │
+└───────────────┘
+https://elpa.nongnu.org/nongnu/doc/gnosis.html
+https://github.com/abo-abo/pamparam
+https://github.com/l3kn/org-fc
+https://github.com/bohonghuang/org-srs
+https://orgmode.org/worg/org-contrib/org-drill.html
+https://eding.sourceforge.net/
+https://github.com/anki-editor/anki-editor
+https://github.com/chenyanming/anki.el
+https://github.com/eyeinsky/org-anki
+https://github.com/taksatou/flashcard.el
+http://salvi.chaosnet.org/snippets/flashcard-old.html
+https://github.com/open-spaced-repetition/lisp-fsrs
+https://github.com/eudoxia0/hashcards
