@@ -25,7 +25,7 @@
 		("Bas Alberts" . "bas@anti.computer"))
       (:commit . "e99165ef5274bc4512b8d77ba2ac208c59b5d456"))])
  (aidermacs
-  . [(1 8 0 20260705 2)
+  . [(1 8 0 20260713 3)
      ((emacs (26 1)) (transient (0 3 0)) (compat (30 0 2 0))
       (markdown-mode (2 7)))
      "AI pair programming with Aider" tar
@@ -34,7 +34,7 @@
 		 "tools")
       (:maintainer "Mingde Zeng" . "matthewzmd@posteo.net")
       (:authors ("Mingde Zeng" . "matthewzmd@posteo.net"))
-      (:commit . "2e804a3129758aaad4bd8c28f2eb625ec4794aab"))])
+      (:commit . "da680e6029ee1ec0155adea922b9945824b09b9c"))])
  (alect-themes
   . [(0 11 0 20251205 150325) ((emacs (24 0)))
      "Configurable light, dark and black themes for Emacs 24 or later"
@@ -221,7 +221,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(2 0 0 -4 0 20260713 89)
+  . [(2 0 0 -4 0 20260714 92)
      ((emacs (28)) (clojure-mode (5 19)) (compat (30))
       (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
       (sesman (0 3 2)) (transient (0 4 1)))
@@ -235,7 +235,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "450cfeb1ca0989162fa8262af584c19fce4b27c9"))])
+      (:commit . "6156c011c4e044fbede9014693676140ce9336ae"))])
  (clojure-mode
   . [(5 23 0 0 20260709 7) ((emacs (27 1)))
      "Major mode for Clojure code" tar
@@ -364,12 +364,12 @@
       (:authors ("Susam Pal" . "susam@susam.net"))
       (:commit . "c2dc9fc2886471daff654e12b46a144a4d1361ae"))])
  (diff-ansi
-  . [(0 2 0 20260529 60) ((emacs (29 1)))
+  . [(0 2 0 20260713 62) ((emacs (29 1)))
      "Display diffs using alternative diffing tools" tar
      ((:url . "https://codeberg.org/ideasman42/emacs-diff-ansi")
       (:maintainer "Campbell Barton" . "ideasman42@gmail.com")
       (:authors ("Campbell Barton" . "ideasman42@gmail.com"))
-      (:commit . "1019b341897a2abc944a6bf9914fab344a37e5d5"))])
+      (:commit . "86c0b3525b2793b585b548c6e975d6fe6a2cea2a"))])
  (dirvish
   . [(2 3 0 0 20250504 80741) ((emacs (28 1)) (compat (30)))
      "A modern file manager based on dired mode" tar
@@ -947,7 +947,7 @@
       (:authors ("David Andersson" . "l.david.anderssonsverige.nu"))
       (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel
-  . [(0 9 9 5 0 20260709 60)
+  . [(0 9 9 5 0 20260713 61)
      ((emacs (27 1)) (transient (0 7 8)) (compat (30 1 0 0)))
      "Interact with ChatGPT or other LLMs" tar
      ((:url . "https://github.com/karthink/gptel")
@@ -956,7 +956,7 @@
 		   . "karthik.chikmagalur@gmail.com")
       (:authors
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-      (:commit . "74cd61c58b0922c020683677085e3b0deb0c044d"))])
+      (:commit . "443885f96d2002d29ab2f76fca4ef43de569355a"))])
  (graphql-mode
   . [(1 0 0 0 20260524 82344) ((emacs (25 1)))
      "Major mode for editing GraphQL schemas" tar
@@ -1159,14 +1159,14 @@
       (:keywords "j" "languages")
       (:commit . "e49ef0692d73b320c281e40d9fa96b2c17073695"))])
  (jabber
-  . [(0 12 1 0 20260713 30)
+  . [(0 12 2 0 20260713 0)
      ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
      "XMPP/Jabber client" tar
      ((:url . "https://codeberg.org/emacs-jabber/emacs-jabber")
       (:keywords "comm")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Magnus Henoch" . "mange@freemail.hu"))
-      (:commit . "017ba3d1652bd37622c4e6d72e59c0eceeb4e287"))])
+      (:commit . "ab62c3cc2a7df39123ac0d841114a2e3a1c1e8c2"))])
  (jade-mode
   . [(1 0 1 0 20211019 161323) nil
      "Major mode for editing .jade files" tar
@@ -1644,13 +1644,13 @@
       (:authors ("Frédéric Perrin" . "fredericperrinreselfr"))
       (:commit . "ae60e11c96cc1767f05ce0cab6a917240ce2e37a"))])
  (projectile
-  . [(3 3 0 -4 0 20260712 1) ((emacs (28 1)) (compat (30)))
+  . [(3 3 0 -4 0 20260713 0) ((emacs (28 1)) (compat (30)))
      "Manage and navigate projects in Emacs easily" tar
      ((:url . "https://github.com/bbatsov/projectile")
       (:keywords "project" "convenience")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
       (:authors ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
-      (:commit . "155ff835f142f7cd79afb25f0c8828c68d93fedd"))])
+      (:commit . "cd674bb9cf979473d6d900911f3e3888b2eb3313"))])
  (proof-general
   . [(4 6 -4 0 20260622 265) ((emacs (25 2)))
      "A generic Emacs interface for proof assistants" tar
