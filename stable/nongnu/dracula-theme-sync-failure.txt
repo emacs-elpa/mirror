@@ -1,0 +1,12 @@
+Upstream of dracula-theme has DIVERGED!
+
+  Local changes:
+1acd972582 2026-07  etienne@pflieg..  Small adjustements for 256 colors terms
+2bc333d973 2026-07  etienne@pflieg..  Use official variant for region; remove similar bg2; rename bg3 to alt-bg
+
+  Upstream changes:
+df2be56b03 2026-07  etienne@pflieg..  Rework current line / region colors
+ba43fcbfb5 2026-07  etienne@pflieg..  Add changelog for next version
+60e0ccf930 2026-07  etienne@pflieg..  Add link-visited face
+fb6dd4628c 2026-07  etienne@pflieg..  Correctly sort and set link and linum faces
+59e930a7a3 2026-07  etienne@pflieg..  Small adjustements for 256 colors terms
