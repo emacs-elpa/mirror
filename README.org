@@ -18,7 +18,10 @@ The devel archives can be configured as follows:
       package-archive-priorities '(("gnu-devel"    . 2)
                                    ("nongnu-devel" . 1)
                                    ("melpa-devel"  . 0))
-      packag-review-policy t)
+      package-archive-column-width 14
+      package-version-column-width 26
+      package-review-policy t
+      package-list-unsigned t)
 #+end_src
 
 * Stable
@@ -32,7 +35,10 @@ The stable archives can be configured as follows:
       package-archive-priorities '(("gnu-stable"    . 2)
                                    ("nongnu-stable" . 1)
                                    ("melpa-stable"  . 0))
-      packag-review-policy t)
+      package-archive-column-width 14
+      package-version-column-width 26
+      package-review-policy t
+      package-list-unsigned t)
 #+end_src
 
 * Daily snapshots
@@ -48,7 +54,10 @@ the daily snapshots of all archives as follows, for instance for the date
       package-archive-priorities '(("gnu-devel"    . 2)
                                    ("nongnu-devel" . 1)
                                    ("melpa-devel"  . 0))
-      packag-review-policy t)
+      package-archive-column-width 14
+      package-version-column-width 26
+      package-review-policy t
+      package-list-unsigned t)
 #+end_src
 
 * Other mirrors and scripts
