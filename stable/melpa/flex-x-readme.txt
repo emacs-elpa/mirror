@@ -4,8 +4,9 @@ Features:
 
 - Space-separated AND filtering.
 - Sorting by minibuffer history and flex score.
-- Whole-candidate highlighting for high-score matches.
-- Optional regexp expanders for non-ASCII candidates, such as migemo or pyim.
+- Standard completion highlighting, including lazy highlighting.
+- An optional regexp expander for non-ASCII candidates, such as migemo or
+  pyim.
 
 Add `flex-x' to `completion-styles' to enable it:
 
