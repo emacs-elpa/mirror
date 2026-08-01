@@ -15,6 +15,8 @@ for (( i=0; i<${#archives[@]}; i+=2 )); do
     src="${archives[i]}"
     dst="${archives[i+1]}"
     exc="${dst}.exclude"
+
+    mkdir -p "$dst"
     touch "$exc"
 
     # Synchronize files.
