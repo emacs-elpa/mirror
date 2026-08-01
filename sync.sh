@@ -1,6 +1,23 @@
 #!/bin/bash
 
-shopt -s globstar nullglob
+### ELPA mirror synchronization script
+
+# Copyright (C) 2026 Daniel Mendler
+
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+### Code:
 
 archives=(
     elpa.gnu.org::gnu-devel/       devel/gnu
@@ -24,26 +41,30 @@ for (( i=0; i<${#archives[@]}; i+=2 )); do
     rsync --stats -az --delete --exclude-from=.gitignore --exclude-from="$exc" "$src" "$dst" || exit 1
     echo
 
-    # Delete files which are too large.
-    find "$dst" -type f -size +99M -delete
+    # Delete files which are too large, and ignore them from now on.
+    while IFS= read -r -d '' file; do
+        rel="${file#"$dst"/}"
+        grep -Fxq -- "$rel" "$exc" || echo "$rel" >> "$exc"
+        rm -f -- "$file"
+    done < <(find "$dst" -type f -size +99M -print0)
 
-    # Delete unused signatures and ignore them from now on.
-    for sig in "$dst"/*.sig; do
-        if [[ ! -f "${sig%.sig}" ]]; then
-            rel="${sig#"$dst"/}"
-            grep -Fxq "$rel" "$exc" || echo "$rel" >> "$exc"
-            rm -f -- "$sig"
+    # Delete unused signatures, and ignore them from now on.
+    while IFS= read -r -d '' file; do
+        if [[ ! -f "${file%.sig}" ]]; then
+            rel="${file#"$dst"/}"
+            grep -Fxq -- "$rel" "$exc" || echo "$rel" >> "$exc"
+            rm -f -- "$file"
         fi
-    done
+    done < <(find "$dst" -type f -name '*.sig' -print0)
 done
-
-# Configure git.
-git config user.name "emacs-elpa"
-git config user.email "sync@emacs-elpa"
 
 # Add all changes. Exit if there are no changes.
 git add -A
 git diff --staged --quiet && echo "No changes" && exit 0
+
+# Configure git.
+git config user.name "emacs-elpa"
+git config user.email "sync@emacs-elpa"
 
 # Find unused tag of the form YYYY-mm-dd.n.
 today=$(date -u +"%Y-%m-%d")
