@@ -14,7 +14,7 @@ archives=(
 for (( i=0; i<${#archives[@]}; i+=2 )); do
     src="${archives[i]}"
     dst="${archives[i+1]}"
-    exc="${dst}/.exclude"
+    exc="${dst}.exclude"
     touch "$exc"
 
     # Synchronize files.
