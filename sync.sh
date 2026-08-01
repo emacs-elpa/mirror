@@ -19,7 +19,7 @@ for (( i=0; i<${#archives[@]}; i+=2 )); do
 
     # Synchronize files.
     echo "================================ sync $src -> $dst ================================"
-    rsync --stats -az --delete --exclude-from=.gitignore --exclude-from="$exc" "$src" "$dst"
+    rsync --stats -az --delete --exclude-from=.gitignore --exclude-from="$exc" "$src" "$dst" || exit 1
     echo
 
     # Delete files which are too large.
