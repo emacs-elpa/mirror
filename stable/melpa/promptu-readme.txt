@@ -18,7 +18,7 @@ See the README for full usage instructions, or just start using promptu!
 Example:
 
 Pressing `r c - P` triggers the built-in blocks `review`, `commit`, then arms
-`-` and adds a negated `push`. This composes (with the default separator) a
+`-` and adds a negated `push`.  This composes (with the default separator) a
 bulleted prompt:
 
   - review your changes
