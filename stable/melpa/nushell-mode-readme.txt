@@ -1,4 +1,1 @@
-A very basic version of major mode for nushell shell scripts.
-Current features:
-
- - keyword highlight
+A very basic version of major mode for Nushell shell scripts.
