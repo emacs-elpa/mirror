@@ -1437,3 +1437,8 @@ jabber-0.12.5.0.20260802.22.tar.sig
 elfeed-4.1.1.0.20260801.0.tar.sig
 php-mode-1.26.1.0.20260804.86.tar.sig
 cider-2.1.0snapshot0.20260729.44.tar.sig
+helm-4.0.7.0.20260729.39.tar.sig
+helm-core-4.0.7.0.20260729.39.tar.sig
+flycheck-39.0snapshot0.20260805.77.tar.sig
+jabber-0.13.0.0.20260805.0.tar.sig
+cider-2.1.0snapshot0.20260805.47.tar.sig
