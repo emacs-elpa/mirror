@@ -61,6 +61,11 @@ gateway.
   • `RET' to send.
   • `/' for slash commands.
   • `C-c C-o' for the actions menu.
+  • Chats propose the launching buffer's `default-directory' when
+    creating a session; the gateway returns the authoritative workspace.
+    Use “Set directory” to browse the owning instance and change an idle
+    chat's gateway workspace without changing Emacs's local
+    `default-directory'.
   • `M-x hermes-close' closes local connections and Hermes buffers for
     restart.
 
@@ -69,6 +74,21 @@ gateway.
   ┌────
   │ hermes dashboard --no-open --tui --host 127.0.0.1 --port 9119
   └────
+
+  To use more than one dashboard, configure named instances:
+
+  ┌────
+  │ (setq hermes-instances
+  │       '(("local" . "http://127.0.0.1:9119")
+  │         ("remote" . "https://dashboard.example.org")))
+  └────
+
+  Commands prompt for an instance only when the current buffer does not
+  already own one.  Chat buffers remain attached to their original
+  instance, so chats against different dashboards can stay open at the
+  same time.  Browser views retain their chosen instance until
+  explicitly reopened for another one.  With zero or one named instance,
+  existing single-dashboard behavior is unchanged.
 
 
 3 Dashboard authentication
