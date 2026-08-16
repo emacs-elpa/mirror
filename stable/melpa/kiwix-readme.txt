@@ -1,22 +1,19 @@
-This currently only works for GNU/Linux, not tested for Mac OS X and Windows.
+; This currently only works for GNU/Linux, not tested for Mac OS X and Windows.
 
 ;; Kiwix installation
 
-https://github.com/stardiviner/kiwix.el/#install
+http://www.kiwix.org
 
 ;; Config:
 
 (use-package kiwix
   :ensure t
   :after org
-  :commands (kiwix-launch-server kiwix-at-point kiwix-search-at-library kiwix-search-full-context)
+  :commands (kiwix-launch-server kiwix-at-point)
   :bind (:map document-prefix ("w" . kiwix-at-point))
-  :custom ((kiwix-server-type 'docker-remote)
-           (kiwix-server-url "http://192.168.31.251")
-           (kiwix-server-port 8089))
-  :hook (org-load . org-kiwix-setup-link)
-  :init (require 'org-kiwix)
-  :config (add-hook 'org-load-hook #'org-kiwix-setup-link))
+  :init (setq kiwix-server-use-docker t
+              kiwix-server-port 8080
+              kiwix-default-library "wikipedia_zh_all_2015-11.zim"))
 
 ;; Usage:
 
