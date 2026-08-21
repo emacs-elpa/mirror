@@ -9,5 +9,6 @@
 *.xml
 *~
 .*
+README
 doc/
 old/
