@@ -41,12 +41,12 @@ for (( i=0; i<${#archives[@]}; i+=2 )); do
     rsync --stats -az --delete --exclude-from=.gitignore --exclude-from="$exc" "$src" "$dst" || exit 1
     echo
 
-    # Delete files which are too large, and ignore them from now on.
+    # Delete links and large files, and ignore them from now on.
     while IFS= read -r -d '' file; do
         rel="${file#"$dst"/}"
         grep -Fxq -- "$rel" "$exc" || echo "$rel" >> "$exc"
         rm -f -- "$file"
-    done < <(find "$dst" -type f -size +99M -print0)
+    done < <(find "$dst" \( -type f -size +99M \) -or -type l -print0)
 
     # Delete unused signatures, and ignore them from now on.
     while IFS= read -r -d '' file; do
