@@ -450,7 +450,7 @@
   (browse-at-remote :url "https://github.com/rmuslimov/browse-at-remote")
   (browse-kill-ring :url "https://github.com/browse-kill-ring/browse-kill-ring")
   (browse-url-dwim :url "https://github.com/rolandwalker/browse-url-dwim")
-  (browsel :url "https://github.com/dmgerman/browsel")
+  (browser-gt :url "https://github.com/dmgerman/browser-gt")
   (browser-hist :url "https://github.com/agzam/browser-hist.el")
   (brutalist-theme :url "https://git.madhouse-project.org/algernon/brutalist-theme.el.git")
   (bshell :url "https://github.com/plandes/bshell")
