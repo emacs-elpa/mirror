@@ -2197,3 +2197,6 @@ cond-let-1.1.3.0.20260701.0.tar.sig
 cider-2.1.0snapshot0.20260827.94.tar.sig
 slime-2.32snapshot0.20260827.60.tar.sig
 jabber-0.13.1.0.20260824.8.tar.sig
+projectile-3.5.0snapshot0.20260825.31.tar.sig
+flycheck-40.0snapshot0.20260827.43.tar.sig
+cider-2.1.0snapshot0.20260828.95.tar.sig
