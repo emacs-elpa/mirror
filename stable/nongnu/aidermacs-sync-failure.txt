@@ -1,8 +1,0 @@
-Upstream of aidermacs has DIVERGED!
-
-  Local changes:
-8bc3dfc31b 2026-08  149178915+user..  2026-08-23 23-44 - AEO: checksum install + terminal roster (Build Remote Agent)
-60c90db6a0 2026-08  149178915+user..  2026-08-23 22-03 - Build Remote Agent pairing device
-
-  Upstream changes:
-d6f0489efb 2026-08  167669941+Over..  Simplify session buffer selection and fix ancestor directory handling (#221)
