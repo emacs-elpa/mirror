@@ -173,13 +173,13 @@
       (:authors ("John Wiegley" . "jwiegley@gmail.com"))
       (:commit . "4fdcb061a166e0d6ccc27d3829a28e04415ae825"))])
  (auctex
-  . [(14 1 2 0 20260830 71) ((emacs (28 1)))
+  . [(14 1 2 0 20260902 73) ((emacs (28 1)))
      "Integrated environment for *TeX*" tar
      ((:url . "https://www.gnu.org/software/auctex/")
       (:keywords "tex" "latex" "texinfo" "context" "doctex"
 		 "preview-latex")
       (:maintainer nil . "auctex-devel@gnu.org")
-      (:commit . "acf2e1c724dd3bbcf337b1d5efe9c510793e9e3a"))])
+      (:commit . "82189092e425f48f8da60b68ffb0b276d9eeb833"))])
  (auctex-cont-latexmk
   . [(0 3 0 20260617 10) ((emacs (29 3)) (auctex (14 0 5)))
      "run latexmk continuously, report errors via Flymake" tar
@@ -797,12 +797,12 @@
       (:authors ("Mohamed Suliman" . "sulimanm@tcd.ie"))
       (:commit . "9bf3bed5e0f59621a98169bbbd4b359d3a039b22"))])
  (denote-org
-  . [(0 3 0 0 20260520 123505) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 3 0 0 20260902 3) ((emacs (28 1)) (denote (4 0 0)))
      "Denote extensions for Org mode" tar
      ((:url . "https://github.com/protesilaos/denote-org")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "b6b788db84fbf0c918bce6b3ce65508dd651bb4c"))])
+      (:commit . "f5c8fe7aad8eb243ccdee0f558515a094431bf9d"))])
  (denote-review
   . [(1 0 7 0 20260409 90040) ((emacs (28 1)) (denote (4 1 3)))
      "implements review process for denote notes" tar
@@ -1012,13 +1012,13 @@
       (:url . "https://elpa.gnu.org/packages/docbook.html")
       (:commit . "9b7c2dbae38b523442f7c1155bc4e3db16a0c49f"))])
  (doric-themes
-  . [(1 2 1 0 20260831 22) ((emacs (29 1)))
+  . [(1 2 1 0 20260901 25) ((emacs (29 1)))
      "Highly legible minimalist themes with precise typography" tar
      ((:url . "https://github.com/protesilaos/doric-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "87fda13dbba9c95e0588512b224b5e6f85faf16a"))])
+      (:commit . "777c80af0348d4b8eac783f7378d261fb4cc8c9f"))])
  (drepl
   . [(0 4 0 20260715 8) ((emacs (29 1)) (comint-mime (0 7)))
      "REPL protocol for the dumb terminal" tar
@@ -1101,7 +1101,7 @@
       (:authors ("Protesilaos" . "info@protesilaos.com"))
       (:commit . "e1f617607a5f0692b398365dcd8412ba1e98ccb3"))])
  (eglot
-  . [(1 24 0 20260817 14)
+  . [(1 24 0 20260902 18)
      ((emacs (26 3)) (eldoc (1 16 0)) (external-completion (0 1))
       (flymake (1 4 5)) (jsonrpc (1 0 29)) (project (0 11 2))
       (seq (2 23)) (xref (1 7 0)))
@@ -1110,7 +1110,7 @@
       (:keywords "convenience" "languages")
       (:maintainer "João Távora" . "joaotavora@gmail.com")
       (:authors ("João Távora" . "joaotavora@gmail.com"))
-      (:commit . "21f96f539b68a9e2b8f29b0aef3ce1acbb528c94"))])
+      (:commit . "2e9d0a09bcb8ff90c7b630cec899c55f00f65b2a"))])
  (el-job
   . [(2 7 4 0 20260306 64315) ((emacs (29 1)))
      "Contrived way to call a function using all CPU cores" tar
@@ -1916,13 +1916,13 @@
       (:url . "https://elpa.gnu.org/packages/jumpc.html")
       (:commit . "ab83a2a5416f83405361e25df8cbd8aab35cb8b3"))])
  (keymap-popup
-  . [(0 4 3 0 20260823 0) ((emacs (29 1)))
+  . [(0 4 3 0 20260901 1) ((emacs (29 1)))
      "Described keymaps with popup help" tar
      ((:url . "https://git.thanosapollo.org/emacs-keymap-popup/")
       (:keywords "convenience")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Thanos Apollo" . "public@thanosapollo.org"))
-      (:commit . "51569cc03e7baba51005d08e6019c24c1a4794c9"))])
+      (:commit . "bd61677c74b2d6bc6fb94e881723d6dbb7154299"))])
  (kind-icon
   . [(0 2 2 0 20250311 112658) ((emacs (27 1)) (svg-lib (0 2 8)))
      "Completion kind icons" tar
@@ -2273,13 +2273,13 @@
       (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
       (:commit . "dc0bd20750f34340448ba1c7be4ed2b62af0f78c"))])
  (modus-themes
-  . [(5 3 0 0 20260831 40) ((emacs (28 1)))
+  . [(5 3 0 0 20260901 42) ((emacs (28 1)))
      "Elegant, highly legible and customizable themes" tar
      ((:url . "https://github.com/protesilaos/modus-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "24e4b4b9e47a382cba6dfb3dc41d68a8ba7912d2"))])
+      (:commit . "a3e7ba280524dfd4bdaf3169ef5901ac91dadb01"))])
  (mpdired
   . [(4 -1 0 20250502 1) ((emacs (29)))
      "A dired-like client for Music Player Daemon" tar
@@ -2474,13 +2474,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "51f677f464424ce3c46e3deacb7709784795a03b"))])
  (org
-  . [(10 0 -1 0 20260830 533) ((emacs (28 2)))
+  . [(10 0 -1 0 20260902 534) ((emacs (28 2)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "b75b790398bb3a0cbd7d25a5a2e6237e73c0bc03"))])
+      (:commit . "00c0709e741447174481d66038b87951e19faaf2"))])
  (org-contacts
   . [(1 3 0 20260829 10) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
@@ -3649,7 +3649,7 @@
       (:url . "https://elpa.gnu.org/packages/transcribe.html")
       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient
-  . [(0 13 7 0 20260825 3)
+  . [(0 13 8 0 20260901 0)
      ((emacs (28 1)) (compat (31 0)) (cond-let (1 1)) (llama (1 0))
       (seq (2 24)))
      "Transient commands" tar
@@ -3659,7 +3659,7 @@
 		   . "emacs.transient@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
-      (:commit . "9ac2d48909e1d34890a4a17581d6693dcc867800"))])
+      (:commit . "0cacc84ff0c7df126e194666ff8b8a1e6082e796"))])
  (transient-cycles
   . [(2 1 0 20260625 0) ((emacs (29 1)))
      "Define command variants with transient cycling" tar
@@ -4087,10 +4087,10 @@
       (:authors ("Mattias Engdegård" . "mattias.engdegard@gmail.com"))
       (:commit . "fc4d6b5ddae9eb2c8adc2b117e6f33f3a09a4e96"))])
  (xref
-  . [(1 7 0 0 20260403 13314) ((emacs (26 1)))
+  . [(1 7 0 0 20260831 44) ((emacs (26 1)))
      "Cross-referencing commands" tar
      ((:url . "https://elpa.gnu.org/packages/xref.html")
-      (:commit . "86efaec00e01af1e9171c7fa9eb7904af3be0eb3"))])
+      (:commit . "2e9d0a09bcb8ff90c7b630cec899c55f00f65b2a"))])
  (xref-union
   . [(0 2 0 0 20260222 131318) ((emacs (25 1)))
      "Combine multiple Xref backends" tar

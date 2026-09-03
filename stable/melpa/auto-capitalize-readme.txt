@@ -22,8 +22,9 @@ Or, to also use the Org, SGML, and TeX plugins (the latter requiring AUCTeX):
 The heart of the package is `auto-capitalize-after-change', which is
 installed in `after-change-functions' when the mode is enabled. It serves as
 the main entry point for the capitalization logic, which is based on two
-hooks that you can add your own predicates to. The
-`auto-capitalize-blocking-functions' hook gives you the right of first
+hooks that you can add your own predicates to.
+
+The `auto-capitalize-blocking-functions' hook gives you the right of first
 refusal over capitalization: each function in that hook is called with two
 arguments, TEXT-START and WORD-START, and returns non-nil to block
 capitalization of the word at WORD-START. A single function in that hook
@@ -54,7 +55,7 @@ prog-mode should be auto-capitalized, and its comment analogue
 This package is a revamp of Yuta Yamada’s version
 (https://github.com/yuutayamada/auto-capitalize-el), which is itself a fork
 of the original auto-capitalize.el, written by Kevin Rodgers and shared on
-the emacswiki (https://www.emacswiki.org/emacs/auto-capitalize.el). I have
+the emacs wiki (https://www.emacswiki.org/emacs/auto-capitalize.el). I have
 tried to streamline the code, building on the refactoring process that Yuta
 Yamada had already started, and removing/replacing old artifacts with their
 modern equivalent. I have also modified the package’s interface to make it
