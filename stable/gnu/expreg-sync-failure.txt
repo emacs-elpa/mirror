@@ -1,0 +1,10 @@
+Upstream of expreg has DIVERGED!
+
+  Local changes:
+d3ac3703e3 2026-06  casouri@gmail...  Merge pull request #12 from shlemas/master
+e638eedc83 2026-06  shlemas@users...  Call push-mark before set-mark
+
+  Upstream changes:
+fb63045193 2026-09  casouri@gmail...  ; * README.txt: Mention expreg-functions.
+adbd7bef0f 2026-09  casouri@gmail...  * expreg.el (expreg-functions): Make it a custom option.
+4306ef7aa8 2026-09  casouri@gmail...  Add custom group and make expreg-restore-point-on-quit an option
