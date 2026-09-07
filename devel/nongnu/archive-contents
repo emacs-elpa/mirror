@@ -580,13 +580,13 @@
       (:authors ("Connor Smith" . "wconnorsmith@gmail.com"))
       (:commit . "a8151556f63c9d45d0c44c8a7ef9e5a542f3cdc7"))])
  (evil-collection
-  . [(3 0 2 0 20260904 3) ((emacs (29 1)) (evil (1 2 13)))
+  . [(3 0 3 0 20260905 0) ((emacs (29 1)) (evil (1 2 13)))
      "A set of keybindings for Evil mode" tar
      ((:url . "https://github.com/emacs-evil/evil-collection")
       (:keywords "evil" "tools")
       (:maintainer "James Nguyen" . "james@jojojames.com")
       (:authors ("James Nguyen" . "james@jojojames.com"))
-      (:commit . "945ca6e408f89946c9d99d2c3168a92cf065f874"))])
+      (:commit . "783c96b9901417cb8b6df63ab606387fa72dc922"))])
  (evil-emacs-cursor-model-mode
   . [(0 1 3 0 20260225 15950) ((emacs (29 1)) (evil (1 15 0)))
      "Emacs' cursor model in evil-mode" tar
@@ -821,13 +821,13 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "ce2ea016a67b200862788e81f0ff1f8f7e4e0454"))])
  (geiser
-  . [(0 33 2 0 20260823 1) ((emacs (27 1)) (project (0 8 1)))
+  . [(0 33 2 0 20260905 2) ((emacs (27 1)) (project (0 8 1)))
      "GNU Emacs and Scheme talk to each other" tar
      ((:url . "https://gitlab.com/emacs-geiser/")
       (:keywords "languages" "scheme" "geiser")
       (:maintainer "Jose Antonio Ortega Ruiz" . "(jao@gnu.org)")
       (:authors ("Jose Antonio Ortega Ruiz" . "(jao@gnu.org)"))
-      (:commit . "584f78b103037e8bc6f4b22a6fae23e09f619d6d"))])
+      (:commit . "1d7b08e989df3933ea0b4414ebfbdd99c3cc24ed"))])
  (geiser-chez
   . [(0 18 0 20260727 5) ((emacs (26 1)) (geiser (0 19)))
      "Chez and Geiser talk to each other" tar
@@ -971,7 +971,7 @@
       (:authors ("David Andersson" . "l.david.anderssonsverige.nu"))
       (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel
-  . [(0 9 9 5 0 20260904 106)
+  . [(0 9 9 6 0 20260905 3)
      ((emacs (27 1)) (transient (0 7 8)) (compat (30 1 0 0)))
      "Interact with ChatGPT or other LLMs" tar
      ((:url . "https://github.com/karthink/gptel")
@@ -980,7 +980,7 @@
 		   . "karthik.chikmagalur@gmail.com")
       (:authors
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-      (:commit . "9417813e279f81d1ee1909f848b7c42f69d68d20"))])
+      (:commit . "4799c8018835f2e1af3da89513d7904dcc7a56f8"))])
  (graphql-mode
   . [(1 0 0 0 20260904 38) ((emacs (25 1)))
      "Major mode for editing GraphQL schemas" tar
@@ -1054,7 +1054,7 @@
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
       (:commit . "90712c571f21ccf024b7eb6dcb9ccb5bffbad073"))])
  (hermes
-  . [(0 5 0 0 20260905 0)
+  . [(0 5 0 0 20260906 3)
      ((emacs (29 1)) (keymap-popup (0 3 1)) (websocket (1 15))
       (markdown-mode (2 6)))
      "Emacs frontend for Hermes Agent" tar
@@ -1062,7 +1062,7 @@
       (:keywords "tools" "convenience")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Thanos Apollo" . "public@thanosapollo.org"))
-      (:commit . "ab2ee92ddd4db52a99b630f975d547736f3132cc"))])
+      (:commit . "a61f6015ac6c67b57f00dca8442ef401c62a2548"))])
  (hideshowvis
   . [(0 9 0 20251119 95800) ((emacs (27 1)))
      "Fringe markers for regions foldable by hideshow.el" tar
@@ -1364,13 +1364,13 @@
       (:authors ("Jason R. Blevins" . "jblevins@xbeta.org"))
       (:commit . "76cb4ffecfdf95ee769e5cb4608e04202c3c1521"))])
  (mastodon
-  . [(2 1 2 0 20260905 74) ((emacs (29 1)) (persist (0 8)) (tp (0 8)))
+  . [(2 1 3 0 20260906 76) ((emacs (29 1)) (persist (0 8)) (tp (0 8)))
      "Client for fediverse services using the Mastodon API" tar
      ((:url . "https://codeberg.org/martianh/mastodon.el")
       (:maintainer "Marty Hiatt" . "martianh@disroot.org")
       (:authors ("Johnson Denen" . "johnson.denen@gmail.com")
 		("Marty Hiatt" . "martianh@disroot.org"))
-      (:commit . "47438191baf258ad0b53d47b0845c47eccf0300b"))])
+      (:commit . "8047ceebe9cc18e2fb3daa2e0ac15669851c480f"))])
  (material-theme
   . [(2015 0 20210904 122621) ((emacs (24 1)))
      "A Theme based on the colors of the Google Material Design" tar
@@ -1663,13 +1663,13 @@
       (:authors ("USAMI Kenta" . "tadsan@zonu.me"))
       (:commit . "0e32f79ffca49578eba452d38b62e434e517df5e"))])
  (pinyin-isearch
-  . [(1 7 2 0 20260904 24) ((emacs (28 1))) "Pinyin mode for isearch"
+  . [(1 7 2 0 20260906 30) ((emacs (28 1))) "Pinyin mode for isearch"
      tar
      ((:url . "https://github.com/Anoncheg1/pinyin-isearch")
       (:keywords "chinese" "isearch" "matching" "convenience")
       (:maintainer "Anoncheg" . "vitalij@gmx.com")
       (:authors ("Anoncheg" . "vitalij@gmx.com"))
-      (:commit . "163c2b6ee33d3bf18c2d2307a7ff851c9eaa67e6"))])
+      (:commit . "dbf9a0b28f6552f7427bad4e4be58c2a725b889f"))])
  (popon
   . [(0 13 0 20230703 82713) ((emacs (25 1)))
      "\"Pop\" floating text \"on\" a window" tar
@@ -1695,13 +1695,13 @@
       (:authors ("Frédéric Perrin" . "fredericperrinreselfr"))
       (:commit . "ae60e11c96cc1767f05ce0cab6a917240ce2e37a"))])
  (project-nix-store
-  . [(0 10 0 0 20260905 1) ((emacs (29 1)))
+  . [(0 10 0 0 20260906 6) ((emacs (29 1)))
      "Project backend for Nix-like store" tar
      ((:url . "https://github.com/jian-lin/project-nix-store")
       (:keywords "nix" "nix-store" "project" "tools")
       (:maintainer "Lin Jian" . "me@linj.tech")
       (:authors ("Lin Jian" . "me@linj.tech"))
-      (:commit . "2a42fc67d6102ddfe81776f52704316a79b3e21e"))])
+      (:commit . "83968e448c359b22c390a54efef570fefe8a8950"))])
  (projectile
   . [(3 5 0 -4 0 20260903 56) ((emacs (28 1)) (compat (30)))
      "Manage and navigate projects in Emacs easily" tar
@@ -1921,11 +1921,11 @@
       (:authors ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
       (:commit . "7ca8e84dc489e3dc2b806c0e2d43ab7dd293d6e3"))])
  (spacemacs-theme
-  . [(0 2 0 20260822 48) ((emacs (24)))
+  . [(0 2 0 20260906 51) ((emacs (24)))
      "Color theme with a dark and light versions." tar
      ((:url . "https://github.com/nashamri/spacemacs-theme")
       (:keywords "color" "theme")
-      (:commit . "77bc457dbb7927c7b12abfa6f9c9318b7c768c15"))])
+      (:commit . "b24b756863e290959a64245504ef2ade8c1e3a9f"))])
  (spell-fu
   . [(0 3 0 20260524 63613) ((emacs (29 1)))
      "Fast & light spelling highlighter" tar
