@@ -19,14 +19,16 @@ Configuration in ~/.emacs or ~/.emacs.d/init.el:
 
 ;; Usage:
 
-M-x pinyin-isearch-mode
-C-u C-s for normal search.
-or
-C-s M-s p/h/s - to activate (p)inyin or (h) Chonese characters (s)trict
-C-s M-s F1 - to see all keys
+1. M-x pinyin-isearch-mode [Activate]
+2. C-s [Start search]
+3. "beijing" [Type pinyin] -> Highlights: 北京 and Běi jīng and beijing.
+4. M-s h [Switch to characters-only] -> Filter results to exact character matches only
+5. M-s s [Enable strict mode] -> More refined, exact-match-only results
+6. C-n / C-p [Navigate matches]
+7. RET [Confirm, jump to match]
 
-Usage without activation of minor mode:
-M-x pinyin-isearch-forward/backward
+Fallback:
+"C-u C-s" at any time for standard Emacs isearch (no Pinyin)
 
 Customization:
 
@@ -66,8 +68,10 @@ with fallback to latin normal characters.
 is a strict grammatical requirement used to prevent ambiguity.
 Apostrophe use is rare, generally at word boundaries or within
 compounds.  to prevent misreading when a syllable starting
-with a, e, or o follows another syllable directly.
+with a, e, or o follows another syllable directly.  - chech that it is solved.
 - Upperacase for pinyin.
 - Cangjie search
 - method for  getting pinyin for chinese characters.
 - allow connecting other input methods.
+- use "M-s s" key to enable strict mode
+ for current pinuin/characrters/both modes if active
