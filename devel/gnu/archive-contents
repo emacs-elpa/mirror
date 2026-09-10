@@ -570,12 +570,12 @@
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
       (:commit . "f07e221d4d5597c7ccf4b0003c0909a88bdfcc9e"))])
  (consult
-  . [(3 8 0 20260907 6) ((emacs (29 1)) (compat (31)))
+  . [(3 8 0 20260910 16) ((emacs (29 1)) (compat (31)))
      "Search and navigate via completing-read" tar
      ((:url . "https://github.com/minad/consult")
       (:keywords "matching" "files" "completion")
       (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-      (:commit . "1b217ca2fb8bcfc4bb56feef829d1bb2b61c85b1"))])
+      (:commit . "f10cf28d3df1e43a8069f5a507c82654834c8b09"))])
  (consult-denote
   . [(0 5 1 0 20260704 0)
      ((emacs (28 1)) (denote (4 0 0)) (consult (2 2)))
@@ -1084,14 +1084,14 @@
       (:authors ("Markus Triska" . "triska@metalevel.at"))
       (:commit . "2356aa9634361a54c312e4a537199e671f1bc47a"))])
  (eev
-  . [(20260903 0 20260909 1) ((emacs (25 1)))
+  . [(20260903 0 20260910 3) ((emacs (25 1)))
      "Support for e-scripts (eepitch blocks, elisp hyperlinks, etc)"
      tar
      ((:url . "http://anggtwu.net/#eev")
       (:keywords "lisp" "e-scripts")
       (:maintainer "Eduardo Ochs" . "eduardoochs@gmail.com")
       (:authors ("Eduardo Ochs" . "eduardoochs@gmail.com"))
-      (:commit . "725f8d0dd447e99420369f1dfc8435c573a81c7d"))])
+      (:commit . "424a855e22685ae516af64f43da02b80a08be426"))])
  (ef-themes
   . [(2 2 1 0 20260814 0) ((emacs (28 1)) (modus-themes (5 0 0)))
      "Colorful and legible themes" tar
@@ -1710,7 +1710,7 @@
       (:authors ("Oleh Krehel" . "ohwoeowho@gmail.com"))
       (:commit . "84a9db01eff1fcc52ad054c5ad3c22316739573f"))])
  (hyperbole
-  . [(9 1 0 0 20260830 48) ((emacs (28)))
+  . [(9 1 0 0 20260909 49) ((emacs (28)))
      "GNU Hyperbole: The Everyday Hypertextual Information Manager"
      tar
      ((:url . "http://www.gnu.org/software/hyperbole")
@@ -1720,7 +1720,7 @@
       (:maintainer ("Robert Weiner" . "rsw@gnu.org")
 		   ("Mats Lidell" . "matsl@gnu.org"))
       (:authors ("Robert Weiner" . "rsw@gnu.org"))
-      (:commit . "5670b645ce1a5b46656b1401c4db83e787ea9513"))])
+      (:commit . "ea68374c34dd4af000b9502d65cf55d5cbc530cd"))])
  (ibuffer-sidebar
   . [(1 0 0 0 20260718 2) ((emacs (29 1))) "Sidebar for `ibuffer'" tar
      ((:url . "https://github.com/jojojames/ibuffer-sidebar")
@@ -2273,13 +2273,13 @@
       (:maintainer "Nicolas P. Rougier" . "Nicolas.Rougier@inria.fr")
       (:commit . "dc0bd20750f34340448ba1c7be4ed2b62af0f78c"))])
  (modus-themes
-  . [(5 3 0 0 20260907 45) ((emacs (28 1)))
+  . [(5 3 0 0 20260910 46) ((emacs (28 1)))
      "Elegant, highly legible and customizable themes" tar
      ((:url . "https://github.com/protesilaos/modus-themes")
       (:keywords "faces" "theme" "accessibility")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "f1ad6c9383bc0ce5a5a9df4f3c3a85d32d34a863"))])
+      (:commit . "4fdacb698bf6d71c945c8d5ff8b356581439dff9"))])
  (mpdired
   . [(4 -1 0 20250502 1) ((emacs (29)))
      "A dired-like client for Music Player Daemon" tar
@@ -2474,13 +2474,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "5806e3f9401606d16962cffae68188c92deb1272"))])
  (org
-  . [(10 0 -1 0 20260909 540) ((emacs (28 2)))
+  . [(10 0 -1 0 20260909 541) ((emacs (28 2)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "397c198a4138ef8e92acbad812e3d40d372aff19"))])
+      (:commit . "7b9d6dbe0be2ea50f272e1ec9b61c46bbd100896"))])
  (org-contacts
   . [(1 3 0 20260905 13) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
