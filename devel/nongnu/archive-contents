@@ -409,10 +409,10 @@
       (:authors ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:commit . "9d5929335c4080699a2daa153ace2996c905008a"))])
  (dracula-theme
-  . [(1 8 3 0 20260701 10) ((emacs (24 3))) "Dracula Theme" tar
+  . [(1 8 3 0 20260907 17) ((emacs (24 3))) "Dracula Theme" tar
      ((:url . "https://github.com/dracula/emacs")
       (:maintainer "tienne Deparis" . "etienne@depar.is")
-      (:commit . "1acd97258258415f6a43c332475fbdcd7ceb9274"))])
+      (:commit . "538b8d20c667ac4b0c43ed1a5ef50760fb4ad754"))])
  (drupal-mode
   . [(0 8 1 0 20240816 123653) ((php-mode (1 5 0)))
      "Advanced minor mode for Drupal development" tar
@@ -489,7 +489,7 @@
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "395c6960c8dbbc26d9988b26d4afeb15ae7ab2c8"))])
  (elfeed
-  . [(4 2 0 0 20260829 4) ((emacs (29 1)) (compat (31)))
+  . [(4 2 0 0 20260909 8) ((emacs (29 1)) (compat (31)))
      "An Atom/RSS feed reader" tar
      ((:url . "https://github.com/emacs-elfeed/elfeed")
       (:keywords "network" "comm" "hypermedia")
@@ -498,7 +498,7 @@
        ("Ihor Radchenko" . "yantar92@posteo.net")
        ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
-      (:commit . "e61600ac3ec738b617109440304772bd02f031ba"))])
+      (:commit . "48dc501cdb52cec9aa75038e1a368da24eec87d8"))])
  (elfeed-web
   . [(4 1 0 0 20260821 0)
      ((emacs (29 1)) (compat (31)) (elfeed (4 1 0))
@@ -719,7 +719,7 @@
       (:authors ("Marty Hiatt" . "martianh@disroot.org"))
       (:commit . "91f28ee199a499b8d6e1b9c7a0f1c15f8a382198"))])
  (fj
-  . [(0 40 0 20260908 22)
+  . [(0 42 0 20260909 0)
      ((emacs (29 1)) (fedi (0 2)) (tp (0 8)) (transient (0 10 0))
       (magit (4 3 8)))
      "Client for Forgejo instances" tar
@@ -727,7 +727,7 @@
       (:keywords "git" "convenience")
       (:maintainer "Marty Hiatt" . "martianh@disroot.org")
       (:authors ("Marty Hiatt" . "martianh@disroot.org"))
-      (:commit . "6b86044174c55820149fb256d12f55ac81ea6805"))])
+      (:commit . "98bc65cd29d4adf96f0c922e69885506103cf475"))])
  (flamegraph
   . [(0 2 0 20260609 2) ((emacs (30 1)))
      "Flame graphs for Emacs's native profiler and folded stacks files"
@@ -971,7 +971,7 @@
       (:authors ("David Andersson" . "l.david.anderssonsverige.nu"))
       (:commit . "72f556524b88e9d30dc7fc5b0dc32078c166fda7"))])
  (gptel
-  . [(0 9 9 6 0 20260905 3)
+  . [(0 9 9 6 0 20260908 4)
      ((emacs (27 1)) (transient (0 7 8)) (compat (30 1 0 0)))
      "Interact with ChatGPT or other LLMs" tar
      ((:url . "https://github.com/karthink/gptel")
@@ -980,7 +980,7 @@
 		   . "karthik.chikmagalur@gmail.com")
       (:authors
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-      (:commit . "4799c8018835f2e1af3da89513d7904dcc7a56f8"))])
+      (:commit . "b907507d0e417218a9a1c372d72354c23c096036"))])
  (graphql-mode
   . [(1 0 0 0 20260904 38) ((emacs (25 1)))
      "Major mode for editing GraphQL schemas" tar
@@ -1054,7 +1054,7 @@
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
       (:commit . "90712c571f21ccf024b7eb6dcb9ccb5bffbad073"))])
  (hermes
-  . [(0 5 0 0 20260908 13)
+  . [(0 6 0 0 20260909 0)
      ((emacs (29 1)) (keymap-popup (0 3 1)) (websocket (1 15))
       (markdown-mode (2 6)))
      "Emacs frontend for Hermes Agent" tar
@@ -1062,7 +1062,7 @@
       (:keywords "tools" "convenience")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Thanos Apollo" . "public@thanosapollo.org"))
-      (:commit . "a3bc2ea51ac63104823cc1c91109a89af5bb0956"))])
+      (:commit . "7be0ac5314b805695fe0d6d0b66238d07bd28dc8"))])
  (hideshowvis
   . [(0 9 0 20251119 95800) ((emacs (27 1)))
      "Fringe markers for regions foldable by hideshow.el" tar
@@ -1253,7 +1253,7 @@
       (:authors ("martian hiatus" . "martianh@disroot.org"))
       (:commit . "3abd1604c3ab9451dcbc087099c499e6dc8882d7"))])
  (llama
-  . [(1 0 5 0 20260601 0) ((emacs (26 1)) (compat (31 0)))
+  . [(1 0 5 0 20260909 1) ((emacs (26 1)) (compat (31 0)))
      "Compact syntax for short lambda" tar
      ((:url . "https://github.com/tarsius/llama")
       (:keywords "extensions")
@@ -1261,7 +1261,7 @@
 		   . "emacs.llama@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.llama@jonas.bernoulli.dev"))
-      (:commit . "4d4024048053b898a01521046e0f063ee47615b0"))])
+      (:commit . "cfea618f14bc8317f8e4947fe10000b229b9a447"))])
  (logview
   . [(0 19 4 -4 0 20260218 1)
      ((emacs (25 1)) (datetime (0 8)) (extmap (1 0)) (compat (29)))
@@ -1663,13 +1663,13 @@
       (:authors ("USAMI Kenta" . "tadsan@zonu.me"))
       (:commit . "0e32f79ffca49578eba452d38b62e434e517df5e"))])
  (pinyin-isearch
-  . [(1 7 2 0 20260906 30) ((emacs (28 1))) "Pinyin mode for isearch"
+  . [(1 7 2 0 20260909 59) ((emacs (28 1))) "Pinyin mode for isearch"
      tar
      ((:url . "https://github.com/Anoncheg1/pinyin-isearch")
       (:keywords "chinese" "isearch" "matching" "convenience")
       (:maintainer "Anoncheg" . "vitalij@gmx.com")
       (:authors ("Anoncheg" . "vitalij@gmx.com"))
-      (:commit . "dbf9a0b28f6552f7427bad4e4be58c2a725b889f"))])
+      (:commit . "3d5b98051dc02fe18a0e62dfe2b733abca966e86"))])
  (popon
   . [(0 13 0 20230703 82713) ((emacs (25 1)))
      "\"Pop\" floating text \"on\" a window" tar
@@ -1727,12 +1727,12 @@
       (:authors ("David Christiansen" . "david@davidchristiansen.dk"))
       (:commit . "50b102c1c0935fd3e0c465feed7f27d66b21cdf3"))])
  (racket-mode
-  . [(1 0 20260726 0) ((emacs (25 1)) (compat (30 0 2 0)))
+  . [(1 0 20260908 0) ((emacs (25 1)) (compat (30 0 2 0)))
      "Racket editing, REPL, and more" tar
      ((:url . "https://www.racket-mode.com/")
       (:authors
        ("Greg Hendershott" . "racket-mode-author@greghendershott.com"))
-      (:commit . "f92a33dcc3b604f53ef23a538e26e1f25c4fea47"))])
+      (:commit . "747b922221991c9eaff37976de325a6d7e571dd9"))])
  (radio
   . [(0 4 3 0 20260212 144358) ((emacs (29 1)))
      "Listen to Internet radio" tar
@@ -1892,11 +1892,11 @@
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
       (:commit . "0c17124cefddf2d50defcec5f2bd25fa6d1db756"))])
  (slime
-  . [(2 32 -4 0 20260908 68) ((emacs (24 3)) (macrostep (0 9)))
+  . [(2 32 -4 0 20260909 69) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
      ((:url . "https://github.com/slime/slime")
       (:keywords "languages" "lisp" "slime")
-      (:commit . "1a1e0e3a5e5600138d9205291e2d9befdb269bea"))])
+      (:commit . "a93bb5e00235b72ce086faca13b33955f44b416e"))])
  (sly
   . [(1 0 43 0 20260801 146) ((emacs (24 5)))
      "Sylvester the Cat's Common Lisp IDE" tar
@@ -2016,12 +2016,12 @@
       (:url . "https://elpa.nongnu.org/nongnu/tablist.html")
       (:commit . "faab7a035ef2258cc4ea2182f67e3aedab7e2af9"))])
  (tabspaces
-  . [(1 10 1 0 20260804 1) ((emacs (27 1)) (project (0 8 1)))
+  . [(1 11 0 0 20260908 2) ((emacs (27 1)) (project (0 8 1)))
      "Leverage tab-bar and project for buffer-isolated workspaces" tar
      ((:url . "https://codeberg.org/mclear-tools/tabspaces")
       (:keywords "convenience" "frames")
       (:authors ("Colin McLear" . "mclear@fastmail.com"))
-      (:commit . "ef19a5dc4147f6e69442bd2e64c00672438ebe04"))])
+      (:commit . "2bfb7361b8d82f660eca8bd2e131b5ca53d56916"))])
  (tangotango-theme
   . [(0 0 7 0 20241117 114955) nil
      "Tango Palette color theme for Emacs 24." tar
