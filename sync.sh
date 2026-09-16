@@ -20,8 +20,8 @@
 ### Code:
 
 archives=(
-    melpa.org::packages-snapshots/ devel/melpa
-    melpa.org::packages-releases/  stable/melpa
+#    melpa.org::packages-snapshots/ devel/melpa
+#    melpa.org::packages-releases/  stable/melpa
     elpa.gnu.org::gnu-devel/       devel/gnu
     elpa.gnu.org::gnu/             stable/gnu
     elpa.nongnu.org::nongnu-devel/ devel/nongnu
