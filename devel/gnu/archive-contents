@@ -173,13 +173,13 @@
       (:authors ("John Wiegley" . "jwiegley@gmail.com"))
       (:commit . "4fdcb061a166e0d6ccc27d3829a28e04415ae825"))])
  (auctex
-  . [(14 2 0 0 20260919 1) ((emacs (28 1)))
+  . [(14 2 0 0 20260924 2) ((emacs (28 1)))
      "Integrated environment for *TeX*" tar
      ((:url . "https://www.gnu.org/software/auctex/")
       (:keywords "tex" "latex" "texinfo" "context" "doctex"
 		 "preview-latex")
       (:maintainer nil . "auctex-devel@gnu.org")
-      (:commit . "b3a7b226b3b9107319326e1a9792fdefdc8d20fa"))])
+      (:commit . "e4764f06cd742d1f41c2888f2a77d72055e9b42b"))])
  (auctex-cont-latexmk
   . [(0 3 0 20260617 10) ((emacs (29 3)) (auctex (14 0 5)))
      "run latexmk continuously, report errors via Flymake" tar
@@ -769,12 +769,12 @@
       (:authors ("Phil Sainty" . "psainty@orcon.net.nz"))
       (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote
-  . [(4 2 3 0 20260909 27) ((emacs (28 1)))
+  . [(4 2 3 0 20260925 29) ((emacs (28 1)))
      "Simple notes with an efficient file-naming scheme" tar
      ((:url . "https://github.com/protesilaos/denote")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "110ced99991125a0675a68dcefe8dfc3c50c5617"))])
+      (:commit . "4a4eee6cbb0730dcc499235f55625d5d3d53cfae"))])
  (denote-journal
   . [(0 3 0 0 20260520 123338) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for daily journaling with Denote" tar
@@ -1273,7 +1273,7 @@
 		 . "storm@cua.dk"))
       (:commit . "5e83523752a47231af64c352fe4af57ad44dc456"))])
  (ess
-  . [(26 5 0 0 20260908 5) ((emacs (25 1))) "Emacs Speaks Statistics"
+  . [(26 5 0 0 20260925 6) ((emacs (25 1))) "Emacs Speaks Statistics"
      tar
      ((:url . "https://ess.r-project.org/")
       (:maintainer "ESS Core Team" . "ESS-core@r-project.org")
@@ -1289,7 +1289,7 @@
 		("Vitalie Spinu" . "spinuvit@gmail.com")
 		("Lionel Henry" . "lionel.hry@gmail.com")
 		("J. Alexander Branham" . "alex.branham@gmail.com"))
-      (:commit . "254d3297836f2a2a509fe78fc393ba9037d73614"))])
+      (:commit . "76925477e2ddbb65b14edeb8ae29f4b0c5993cd4"))])
  (excorporate
   . [(1 1 3 0 20250627 211849)
      ((fsm (0 2 1)) (soap-client (3 2 0)) (url-http-ntlm (2 0 6))
@@ -1537,14 +1537,14 @@
       (:url . "https://elpa.gnu.org/packages/gnorb.html")
       (:commit . "409e4fc2c83f8406f362028dbcc3a1fc21182819"))])
  (gnosis
-  . [(0 13 0 0 20260923 19)
+  . [(0 13 0 0 20260924 21)
      ((emacs (29 1)) (compat (29 1 4 2)) (keymap-popup (0 4 4)))
      "Linked notes and spaced repetition" tar
      ((:url . "https://git.thanosapollo.org/emacs-gnosis")
       (:keywords "extensions")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Thanos Apollo" . "public@thanosapollo.org"))
-      (:commit . "dd81341093c6428e0b5a1faca43802e6fa485f5a"))])
+      (:commit . "5f030c9ff27187a5c1aa7131b9cc0719bbd73852"))])
  (gnu-elpa
   . [(1 1 0 20221212 224322) ((emacs (25 1)))
      "Advertise GNU ELPA packages" tar
@@ -2474,22 +2474,22 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "5806e3f9401606d16962cffae68188c92deb1272"))])
  (org
-  . [(10 0 -1 0 20260923 564) ((emacs (28 2)))
+  . [(10 0 -1 0 20260924 566) ((emacs (28 2)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "10814296c77681fbbf708f0d898fa88cbaa7ccce"))])
+      (:commit . "9aae2ea533ca58a5a859613a5ed91821a7a65e60"))])
  (org-contacts
-  . [(1 3 0 20260915 18) ((emacs (29 1)) (org (9 7)))
+  . [(1 3 0 20260924 20) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
      ((:url . "https://repo.or.cz/org-contacts.git")
       (:keywords "contacts" "org-mode" "outlines" "hypermedia"
 		 "calendar")
       (:maintainer "stardiviner" . "numbchild@gmail.com")
       (:authors ("Julien Danjou" . "julien@danjou.info"))
-      (:commit . "a9a29e6374eb4e7baa28ef82b8613acd6eac5c6b"))])
+      (:commit . "7b93522b6f9d0f3343fd34e5fd1be2ce2f66b279"))])
  (org-edna
   . [(1 1 2 0 20200902 94459)
      ((emacs (25 1)) (seq (2 19)) (org (9 0 5)))
@@ -2880,12 +2880,12 @@
       (:authors ("Fabián E. Gallina" . "fgallina@gnu.org"))
       (:commit . "46502897cbdcdc499a9af5d6b968d989c2bd9cf8"))])
  (qrencode
-  . [(1 5 -2 4 0 20260906 0) ((emacs (25 1))) "QRCode encoder" tar
+  . [(1 5 0 20260925 1) ((emacs (25 1))) "QRCode encoder" tar
      ((:url . "https://github.com/ruediger/qrencode-el")
       (:keywords "qrcode" "comm")
       (:maintainer "Rüdiger Sonderfeld" . "ruediger@c-plusplus.net")
       (:authors ("Rüdiger Sonderfeld" . "ruediger@c-plusplus.net"))
-      (:commit . "a63a44020f48cd178c762a30104d09f0cfa584fa"))])
+      (:commit . "472c492b2259484b87edb9bdc32d3fffab953432"))])
  (quarter-plane
   . [(0 1 0 20221221 81727) nil
      "Minor mode for quarter-plane style editing" tar
@@ -3654,7 +3654,7 @@
       (:url . "https://elpa.gnu.org/packages/transcribe.html")
       (:commit . "2c2d493d5488f3b444d2a771ab443589fcc72c13"))])
  (transient
-  . [(0 13 8 0 20260923 7)
+  . [(0 13 8 0 20260925 9)
      ((emacs (28 1)) (compat (31 0)) (cond-let (1 1)) (llama (1 0))
       (seq (2 24)))
      "Transient commands" tar
@@ -3664,7 +3664,7 @@
 		   . "emacs.transient@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.transient@jonas.bernoulli.dev"))
-      (:commit . "db34982dd7d38b3275ae432e23cd708e28303b81"))])
+      (:commit . "6f69527a4d39f1244fb86a55657f70679d8577e0"))])
  (transient-cycles
   . [(2 1 0 20260625 0) ((emacs (29 1)))
      "Define command variants with transient cycling" tar
