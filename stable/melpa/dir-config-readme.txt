@@ -35,11 +35,10 @@ Features:
 Installation from MELPA:
 ------------------------
 (use-package dir-config
-  :ensure t
   :custom
   (dir-config-file-names '(".dir-config.el"))
   (dir-config-allowed-directories '("~/src" "~/projects"))
-  :config
+  :init
   (dir-config-mode))
 
 Links:
