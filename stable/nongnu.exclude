@@ -1357,3 +1357,5 @@ cond-let-1.1.4.tar.sig
 crux-0.5.0.tar.sig
 git-modes-1.5.0.tar.sig
 emacsql-4.4.1.tar.sig
+ebuild-mode.tar
+ebuild-mode.tar.sig
