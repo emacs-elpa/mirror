@@ -22,16 +22,12 @@ buffer annotations instead, in every buffer prompt.
 the selection into the terminal, completing or replacing the pending
 command line.
 
-Loading also registers hidden sources in `consult-buffer' and
-`consult-project-buffer' that enable the `g' narrow key: it
-restricts the view to ghostel buffers only.  Opt out with:
-
-  (setq consult-buffer-sources
-        (delq 'consult-ghostel-source-hidden consult-buffer-sources))
-
-Loading this package also makes `consult-line' match across soft
-line wraps in ghostel buffers: rows joined by wrap newlines become
-one candidate.  It also adds a "Ghostel" group to `consult-bookmark',
+`consult-ghostel-mode' wires ghostel into consult's own commands:
+it registers hidden sources in `consult-buffer' and
+`consult-project-buffer' that enable the `g' narrow key (restricting
+the view to ghostel buffers only), makes `consult-line' match across
+soft line wraps in ghostel buffers (rows joined by wrap newlines
+become one candidate), adds a "Ghostel" group to `consult-bookmark'
 so the `g' narrow key restricts the candidates to ghostel bookmarks.
 
 Enable by adding to your init:
@@ -39,6 +35,7 @@ Enable by adding to your init:
   (use-package consult-ghostel
     :after (ghostel consult)
     :demand t
+    :config (consult-ghostel-mode)
     :bind (("C-x m" . consult-ghostel)
            :map project-prefix-map
            ("m" . consult-ghostel-project)
