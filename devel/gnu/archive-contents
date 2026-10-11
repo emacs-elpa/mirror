@@ -769,12 +769,12 @@
       (:authors ("Phil Sainty" . "psainty@orcon.net.nz"))
       (:commit . "5a0cd5ccb650d7bba1c1ea02cf67b71d7cfa6e9a"))])
  (denote
-  . [(4 2 3 0 20261009 114) ((emacs (28 1)))
+  . [(4 2 3 0 20261010 131) ((emacs (28 1)))
      "Simple notes with an efficient file-naming scheme" tar
      ((:url . "https://github.com/protesilaos/denote")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "0a8a39babe5bcf9c2815a171534ecc61b537cd21"))])
+      (:commit . "f77f705092151636002f4e6d3700f802b8f945be"))])
  (denote-journal
   . [(0 3 0 0 20260520 123338) ((emacs (28 1)) (denote (4 0 0)))
      "Convenience functions for daily journaling with Denote" tar
@@ -783,12 +783,12 @@
       (:authors ("Protesilaos" . "info@protesilaos.com"))
       (:commit . "374224ad2b3162c1fa92bb9ecdb61f157a781c4b"))])
  (denote-markdown
-  . [(0 3 0 0 20260520 123211) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 3 0 0 20261010 2) ((emacs (28 1)) (denote (4 0 0)))
      "Extensions that better integrate Denote with Markdown" tar
      ((:url . "https://github.com/protesilaos/denote-markdown")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "e46945b128b8ea7b3dd9e2c5af3f120045e9243a"))])
+      (:commit . "1a1b832fafbb32d695370e383c7d285de88bb83a"))])
  (denote-menu
   . [(1 4 0 0 20250829 94810) ((emacs (28 1)) (denote (3 0 0)))
      "View denote files in a tabulated list." tar
@@ -797,12 +797,12 @@
       (:authors ("Mohamed Suliman" . "sulimanm@tcd.ie"))
       (:commit . "9bf3bed5e0f59621a98169bbbd4b359d3a039b22"))])
  (denote-org
-  . [(0 3 0 0 20260904 5) ((emacs (28 1)) (denote (4 0 0)))
+  . [(0 3 0 0 20261010 6) ((emacs (28 1)) (denote (4 0 0)))
      "Denote extensions for Org mode" tar
      ((:url . "https://github.com/protesilaos/denote-org")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "d32a5db4e76be691949c3551617d228ff3496c63"))])
+      (:commit . "dca4c968afbcc213c161937ce895e5337987f57c"))])
  (denote-review
   . [(1 0 7 0 20260409 90040) ((emacs (28 1)) (denote (4 1 3)))
      "implements review process for denote notes" tar
@@ -1378,14 +1378,14 @@
       (:url . "https://elpa.gnu.org/packages/flylisp.html")
       (:commit . "7295025f4c0571013142dfb9cc1a893fff79904b"))])
  (flymake
-  . [(1 4 7 0 20261002 7)
+  . [(1 4 7 0 20261010 11)
      ((emacs (26 1)) (eldoc (1 14 0)) (project (0 11 1)))
      "A universal on-the-fly syntax checker" tar
      ((:keywords "c" "languages" "tools")
       (:maintainer "Spencer Baugh" . "sbaugh@janestreet.com")
       (:authors ("Pavel Kobyakov" . "pk_at_work@yahoo.com"))
       (:url . "https://elpa.gnu.org/packages/flymake.html")
-      (:commit . "41bf9fed8c9a9047546448b45c81db3ca2a6a313"))])
+      (:commit . "bcd8db9dc1757a9602b2664dd1eb36fbf40a1903"))])
  (flymake-clippy
   . [(1 1 0 0 20250323 141048) ((emacs (27)))
      "Flymake backend for Clippy" tar
@@ -1609,7 +1609,7 @@
       (:authors ("Sean Allred" . "code@seanallred.com"))
       (:commit . "9b3151b1de67c8a127906f11bc5c71116c12f5b5"))])
  (greader
-  . [(0 19 5 0 20260627 0)
+  . [(0 19 6 0 20261009 0)
      ((emacs (26 1)) (seq (2 24)) (compat (29 1 4 5)))
      "Gnamù reader, send buffer contents to a speech engine" tar
      ((:url . "https://gitlab.com/michelangelo-rodriguez/greader")
@@ -1618,7 +1618,7 @@
 		   . "michelangelo.rodriguez@gmail.com")
       (:authors
        ("Michelangelo Rodriguez" . "michelangelo.rodriguez@gmail.com"))
-      (:commit . "5c304ad008d8688e4eccd9947ba5e410399bf021"))])
+      (:commit . "f5deabe3b490fa72365922ce76f6df3dd0b5a27c"))])
  (greenbar
   . [(1 2 260317 0 20260317 232500) ((emacs (27 1)))
      "Mark comint output with \"greenbar\" background" tar
@@ -2019,14 +2019,14 @@
       (:authors ("Protesilaos" . "info@protesilaos.com"))
       (:commit . "65556a218fe138516ebe557726fe6e4b8b60f539"))])
  (lisp-ts-mode
-  . [(0 4 0 0 20261001 0)
+  . [(0 4 0 0 20261009 4)
      ((emacs (30 2)) (cond-star (0)) (compat (31)))
      "lisp-mode with tree-sitter support" tar
      ((:url . "https://codeberg.org/zshaftel/lisp-ts-mode")
       (:keywords "lisp" "languages" "tree-sitter")
       (:maintainer "zach shaftel" . "zach@shaf.tel")
       (:authors ("zach shaftel" . "zach@shaf.tel"))
-      (:commit . "88b2834deb9e454ddcf2d118118d31b4c13322a3"))])
+      (:commit . "430f03683cb0cf2818caf1be1f03b40c3dafc150"))])
  (listen
   . [(0 10 1 0 20260105 223313)
      ((emacs (29 1)) (persist (0 6)) (taxy (0 10))
@@ -2047,14 +2047,14 @@
       (:authors ("Sean Whitton" . "spwhitton@spwhitton.name"))
       (:commit . "00b8f65effe4f2673e6450d70000644b266aa78a"))])
  (llm
-  . [(0 33 0 0 20261009 1)
+  . [(0 33 0 0 20261009 2)
      ((emacs (28 1)) (plz (0 8)) (plz-event-source (0 1 1))
       (plz-media-type (0 2 1)) (compat (29 1)))
      "Interface to pluggable llm backends" tar
      ((:url . "https://github.com/ahyatt/llm")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "1e1c716d78286e8842afa0aa0a9e9cb06373457e"))])
+      (:commit . "1bfc3e0fd60398a84ea38f59308f88324800d157"))])
  (lmc
   . [(1 4 0 20230105 113402) ((emacs (24)) (cl-lib (0 5)))
      "Little Man Computer in Elisp" tar
@@ -2130,7 +2130,7 @@
       (:url . "https://elpa.gnu.org/packages/map.html")
       (:commit . "1b2a8de314ae7d6cc530884f272e95f64b93e81b"))])
  (marginalia
-  . [(2 13 0 20260926 0) ((emacs (29 1)) (compat (31)))
+  . [(2 13 0 20261010 1) ((emacs (29 1)) (compat (31)))
      "Enrich existing commands with completion annotations" tar
      ((:url . "https://github.com/minad/marginalia")
       (:keywords "docs" "help" "matching" "completion")
@@ -2138,7 +2138,7 @@
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx")
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "42eafcfddbe88d92ed96521a00a5a90a49bac4dd"))])
+      (:commit . "381af583d2530796b9955ff2fe0cba3ad3119943"))])
  (markchars
   . [(0 2 2 0 20221221 80510) nil
      "Mark chars fitting certain characteristics" tar
@@ -2474,13 +2474,13 @@
       (:authors ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
       (:commit . "3d2c2e6468ddf51e69c78e8212e5fd9006d2ce8a"))])
  (org
-  . [(10 0 -1 0 20261009 590) ((emacs (28 2)))
+  . [(10 0 -1 0 20261010 595) ((emacs (28 2)))
      "Outline-based notes management and organizer" tar
      ((:url . "https://orgmode.org")
       (:keywords "outlines" "hypermedia" "calendar" "text")
       (:maintainer "Ihor Radchenko" . "yantar92@posteo.net")
       (:authors ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-      (:commit . "57cb28be4da43813253f730edf71dba733a453fc"))])
+      (:commit . "61a8e63bd8caa1ef5cb747bf80c3109d44ac8d4c"))])
  (org-contacts
   . [(1 3 0 20260924 20) ((emacs (29 1)) (org (9 7)))
      "Contacts management system for Org mode" tar
@@ -2785,13 +2785,13 @@
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
       (:commit . "d83b894ee7a9daf7c8e9b864c23d08f1b23d78f6"))])
  (posframe
-  . [(1 5 2 0 20261008 12) ((emacs (26 1)))
+  . [(1 5 3 0 20261010 0) ((emacs (26 1)))
      "Pop a posframe (just a frame) at point" tar
      ((:url . "https://github.com/tumashu/posframe")
       (:keywords "convenience" "tooltip")
       (:maintainer "Feng Shu" . "tumashu@163.com")
       (:authors ("Feng Shu" . "tumashu@163.com"))
-      (:commit . "45450ee132d060d297550b7c43f3d72ba77df3c7"))])
+      (:commit . "1d833af5c43313e401be2e5c456bf03d4ce9519c"))])
  (pq
   . [(0 2 0 20240911 1) ((emacs (25))) "libpq binding" tar
      ((:url . "https://github.com/anse1/emacs-libpq")
