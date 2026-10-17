@@ -25,7 +25,7 @@
 		("Bas Alberts" . "bas@anti.computer"))
       (:commit . "afe3bf43fab7ff988419762f851129048c396ccc"))])
  (aidermacs
-  . [(1 13 0 20260908 5)
+  . [(1 13 0 20261016 6)
      ((emacs (26 1)) (transient (0 3 0)) (compat (30 0 2 0))
       (markdown-mode (2 7)))
      "AI pair programming with Aider" tar
@@ -34,7 +34,7 @@
 		 "tools")
       (:maintainer "Mingde Zeng" . "matthewzmd@posteo.net")
       (:authors ("Mingde Zeng" . "matthewzmd@posteo.net"))
-      (:commit . "b9a2512e54d8366a0b0472c418d1d2610c98c3ae"))])
+      (:commit . "03ec5747b87920678d0b0ad8bc798ec0e5923125"))])
  (alect-themes
   . [(0 11 0 20260928 15) ((emacs (25 0)))
      "Configurable light, dark and black themes" tar
@@ -1028,11 +1028,11 @@
       (:keywords "markup" "languages" "html")
       (:commit . "3bb4a96535eb5c81dbe6a43bfa8d67a778d449c0"))])
  (haskell-mode
-  . [(17 5 0 20260904 72) ((emacs (25 1))) "A Haskell editing mode"
+  . [(17 5 0 20261016 73) ((emacs (25 1))) "A Haskell editing mode"
      tar
      ((:url . "https://github.com/haskell/haskell-mode")
       (:keywords "haskell" "cabal" "ghc" "repl" "languages")
-      (:commit . "4bdd38c22d8a54d3284b517e889863a1d3971998"))])
+      (:commit . "f957090cfb2fb8757a06750c6438561b21419f86"))])
  (haskell-tng-mode
   . [(0 0 1 0 20230522 221126) ((emacs (27 1)) (popup (0 5 3)))
      "Major mode for editing Haskell" tar
@@ -1048,7 +1048,7 @@
       (:authors ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
       (:commit . "673c27eb86ced050c6b3f46920d081fcb257fee4"))])
  (helm
-  . [(4 0 7 0 20261013 76) ((helm-core (4 0 7)) (wfnames (1 2)))
+  . [(4 0 7 0 20261016 80) ((helm-core (4 0 7)) (wfnames (1 2)))
      "Helm is an Emacs incremental and narrowing framework" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:keywords "helm" "convenience" "files" "buffers" "grep"
@@ -1056,14 +1056,14 @@
 		 "package")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "8c1d8e28f45c44837c73bae9f4d246da0dd9f840"))])
+      (:commit . "9c1a5007870bc944dbefd327ff452eb0fe755c97"))])
  (helm-core
-  . [(4 0 7 0 20261013 76) ((emacs (25 1)) (async (1 9 9)))
+  . [(4 0 7 0 20261016 80) ((emacs (25 1)) (async (1 9 9)))
      "Development files for Helm" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "8c1d8e28f45c44837c73bae9f4d246da0dd9f840"))])
+      (:commit . "9c1a5007870bc944dbefd327ff452eb0fe755c97"))])
  (hermes
   . [(0 9 0 0 20261013 97)
      ((emacs (29 1)) (keymap-popup (0 4 0)) (websocket (1 15))
@@ -1342,7 +1342,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 7 1 0 20261013 46)
+  . [(4 7 1 0 20261016 47)
      ((emacs (28 1)) (compat (31 0)) (cond-let (1 1)) (llama (1 0))
       (magit-section (4 7)) (seq (2 24)) (transient (0 13))
       (with-editor (3 5)))
@@ -1354,9 +1354,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "be42a74513f15221dc364aa668822e05890e3a2f"))])
+      (:commit . "830b1932ed92951715ff12eb894d3dcf4dca0fce"))])
  (magit-section
-  . [(4 7 1 0 20261013 46)
+  . [(4 7 1 0 20261016 47)
      ((emacs (28 1)) (compat (31 0)) (cond-let (1 1)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1365,7 +1365,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "be42a74513f15221dc364aa668822e05890e3a2f"))])
+      (:commit . "830b1932ed92951715ff12eb894d3dcf4dca0fce"))])
  (markdown-mode
   . [(2 9 -3 0 20261009 24) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -1538,12 +1538,12 @@
      ((:url . "http://github.com/bastibe/org-journal")
       (:commit . "6460f6f2b0835b4b8aa87d5fdf40cac7deb319f5"))])
  (org-mime
-  . [(0 3 5 0 20261006 1) ((emacs (29 1)))
+  . [(0 3 5 0 20261015 3) ((emacs (29 1)))
      "org html export for text/html MIME emails" tar
      ((:url . "http://github.com/org-mime/org-mime")
       (:keywords "mime" "mail" "email" "html")
       (:maintainer "Chen Bin" . "chb_shAThotmailDOTcom")
-      (:commit . "926bf4e60405e171c79758e017de99b1005926b1"))])
+      (:commit . "8447fe96f95c17d52e60e0ef14a8ae49e0880dce"))])
  (org-present
   . [(0 1 0 20220806 144744) ((org (7)))
      "Minimalist presentation minor-mode for Emacs org-mode." tar
@@ -1912,11 +1912,11 @@
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
       (:commit . "0c17124cefddf2d50defcec5f2bd25fa6d1db756"))])
  (slime
-  . [(2 32 -4 0 20261014 77) ((emacs (24 3)) (macrostep (0 9)))
+  . [(2 32 -4 0 20261015 78) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
      ((:url . "https://github.com/slime/slime")
       (:keywords "languages" "lisp" "slime")
-      (:commit . "579d609ecb3e4df695f2c45c9ab47229bab13a2e"))])
+      (:commit . "73699f4b39b4718eaeeb11677c051e6334cd0d50"))])
  (sly
   . [(1 0 43 0 20261013 150) ((emacs (24 5)))
      "Sylvester the Cat's Common Lisp IDE" tar
@@ -2036,12 +2036,12 @@
       (:url . "https://elpa.nongnu.org/nongnu/tablist.html")
       (:commit . "faab7a035ef2258cc4ea2182f67e3aedab7e2af9"))])
  (tabspaces
-  . [(1 11 0 0 20260908 2) ((emacs (27 1)) (project (0 8 1)))
+  . [(1 11 0 0 20261015 3) ((emacs (27 1)) (project (0 8 1)))
      "Leverage tab-bar and project for buffer-isolated workspaces" tar
      ((:url . "https://codeberg.org/mclear-tools/tabspaces")
       (:keywords "convenience" "frames")
       (:authors ("Colin McLear" . "mclear@fastmail.com"))
-      (:commit . "2bfb7361b8d82f660eca8bd2e131b5ca53d56916"))])
+      (:commit . "d45bf0db847ed7de47b85dee61926506e3c1995a"))])
  (tangotango-theme
   . [(0 0 7 0 20241117 114955) nil
      "Tango Palette color theme for Emacs 24." tar
