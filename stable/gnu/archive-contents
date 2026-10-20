@@ -3059,13 +3059,13 @@
       (:authors ("Artur Malabarba" . "emacs@endlessparentheses.com"))
       (:commit . "fffe8d0b42b143a2e7df0470d9049fa57b6ecac5"))])
  (spacious-padding
-  . [(0 9 0) ((emacs (28 1)))
+  . [(0 9 1) ((emacs (28 1)))
      "Increase the padding/spacing of frames and windows" tar
      ((:url . "https://github.com/protesilaos/spacious-padding")
       (:keywords "convenience" "focus" "writing" "presentation")
       (:maintainer "Protesilaos" . "info@protesilaos.com")
       (:authors ("Protesilaos" . "info@protesilaos.com"))
-      (:commit . "b390a5b95a6398ff83f8eeb623b29147f42582a7"))])
+      (:commit . "7461d9a9c8aa3e706c169a11c33cf4925c46c43f"))])
  (speedrect
   . [(0 7) ((emacs (29 1)) (compat (30)))
      "Fast modal rectangle commands" tar
@@ -3422,13 +3422,13 @@
       (:authors ("Toby Cubitt" . "toby-predictive@dr-qubit.org"))
       (:commit . "e7326a61b1cd2605867063fcfc5ddddaeed6d993"))])
  (triples
-  . [(0 7 0) ((seq (2 0)) (emacs (28 1)))
+  . [(0 7 1) ((seq (2 0)) (emacs (28 1)))
      "A flexible triple-based database for use in apps" tar
      ((:url . "https://github.com/ahyatt/triples")
       (:keywords "triples" "kg" "data" "sqlite")
       (:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
       (:authors ("Andrew Hyatt" . "ahyatt@gmail.com"))
-      (:commit . "4485fe69f7c5b86995d2b54a073b6202514f0d2e"))])
+      (:commit . "0aa53e6dda315ff05c3138cb4e86e0ff53266f37"))])
  (truename-cache
   . [(0 3 7) ((emacs (27 1)) (compat (30 1)))
      "Efficiently de-dup file-names" tar

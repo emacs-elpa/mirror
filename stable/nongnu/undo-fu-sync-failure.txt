@@ -1,0 +1,8 @@
+Upstream of undo-fu has DIVERGED!
+
+  Local changes:
+cf9a342972 2026-10  ideasman42@gma..  Fix: undo with a count of zero causing the next redo to undo the last change
+
+  Upstream changes:
+fcb4aa41de 2026-10  ideasman42@gma..  Fix: undo/redo with a count of zero changing the undo/redo state
+11c1bfd9a1 2026-10  ideasman42@gma..  Fix: undo/redo applying changes from another buffer's pending undo list

@@ -220,7 +220,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(2 1 0 -4 0 20261009 147)
+  . [(2 1 0 -4 0 20261019 153)
      ((emacs (28)) (clojure-mode (5 19)) (compat (30))
       (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
       (sesman (0 3 2)) (transient (0 4 1)))
@@ -234,7 +234,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "dafaff10c71c497c25fc2ed3500665c3b78e72b9"))])
+      (:commit . "d35d5567ac1daaa50398d8d5a40f0620ee367038"))])
  (clojure-mode
   . [(5 23 0 0 20260709 7) ((emacs (27 1)))
      "Major mode for Clojure code" tar
@@ -437,7 +437,7 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "c8d54d649872bfe7b2b9f49ae5c2addbf12d3b99"))])
  (ebuild-mode
-  . [(1 88 0 20261010 2) ((emacs (26 3)))
+  . [(1 88 0 20261018 3) ((emacs (26 3)))
      "edit ebuild and eclass files" tar
      ((:keywords "languages" "processes")
       (:maintainer nil . "emacs@gentoo.org")
@@ -446,7 +446,7 @@
 		("Christian Faulhammer" . "fauli@gentoo.org")
 		("Ulrich Müller" . "ulm@gentoo.org"))
       (:url . "https://elpa.nongnu.org/nongnu/ebuild-mode.html")
-      (:commit . "b54a7b218585766bac818384aac6d569a94d4d09"))])
+      (:commit . "2e98c0807fd08df5943208bd01c3efc59ee788db"))])
  (edit-indirect
   . [(0 1 13 0 20240128 11949) ((emacs (24 3)))
      "Edit regions in separate buffers" tar
@@ -657,13 +657,13 @@
       (:authors ("Sylvain Benner" . "sylvain.benner@gmail.com"))
       (:commit . "3c65fecd9917a41eaf6460f22187e2323821f3ce"))])
  (evil-matchit
-  . [(4 1 1 0 20261012 1) ((emacs (27 1)))
+  . [(5 0 0 0 20261019 0) ((emacs (27 1)))
      "Vim matchit ported to Evil" tar
      ((:url . "http://github.com/redguardtoo/evil-matchit")
       (:keywords "matchit" "vim" "evil")
       (:maintainer "Chen Bin" . "chenbin.sh@gmail.com")
       (:authors ("Chen Bin" . "chenbin.sh@gmail.com"))
-      (:commit . "1a8f5b950a9496c76297020dda6afdf448913cdc"))])
+      (:commit . "4cb8dd3d811ecb2abd774b491223ac5460dcdd5e"))])
  (evil-nerd-commenter
   . [(3 6 1 0 20260507 41457) ((emacs (26 1)))
      "Comment/uncomment lines efficiently. Like Nerd Commenter in Vim"
@@ -1204,14 +1204,14 @@
       (:keywords "j" "languages")
       (:commit . "e49ef0692d73b320c281e40d9fa96b2c17073695"))])
  (jabber
-  . [(0 15 0 0 20261014 12)
+  . [(0 15 0 0 20261019 13)
      ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
      "XMPP/Jabber client" tar
      ((:url . "https://git.thanosapollo.org/emacs-jabber/about/")
       (:keywords "comm")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Magnus Henoch" . "mange@freemail.hu"))
-      (:commit . "466d3c5af4b2216c452f85e165605d6c0128824e"))])
+      (:commit . "8e2b26b96050260549eeadaa1e5f513a5395b9d9"))])
  (jade-mode
   . [(1 0 1 0 20211019 161323) nil
      "Major mode for editing .jade files" tar
@@ -1342,7 +1342,7 @@
       (:authors ("Jon Oddie" . "j.j.oddie@gmail.com"))
       (:commit . "d0928626b4711dcf9f8f90439d23701118724199"))])
  (magit
-  . [(4 7 1 0 20261018 51)
+  . [(4 7 1 0 20261019 52)
      ((emacs (28 1)) (compat (31 0)) (cond-let (1 1)) (llama (1 0))
       (magit-section (4 7)) (seq (2 24)) (transient (0 13))
       (with-editor (3 5)))
@@ -1354,9 +1354,9 @@
        ("Kyle Meyer" . "kyle@kyleam.com"))
       (:authors ("Marius Vollmer" . "marius.vollmer@gmail.com")
 		("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "fade602ed5621094402cab2068979164362ae6d4"))])
+      (:commit . "1760a5281d09c0a79a363915231ccdb7a4c7cb1d"))])
  (magit-section
-  . [(4 7 1 0 20261018 51)
+  . [(4 7 1 0 20261019 52)
      ((emacs (28 1)) (compat (31 0)) (cond-let (1 1)) (llama (1 0))
       (seq (2 24)))
      "Sections for read-only buffers" tar
@@ -1365,7 +1365,7 @@
 		   . "emacs.magit@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.magit@jonas.bernoulli.dev"))
-      (:commit . "fade602ed5621094402cab2068979164362ae6d4"))])
+      (:commit . "1760a5281d09c0a79a363915231ccdb7a4c7cb1d"))])
  (markdown-mode
   . [(2 9 -3 0 20261009 24) ((emacs (28 1)))
      "Major mode for Markdown-formatted text" tar
@@ -1375,13 +1375,13 @@
       (:authors ("Jason R. Blevins" . "jblevins@xbeta.org"))
       (:commit . "1d22840d588be29aa57eca36f28a32bede331550"))])
  (markdown-ts-appear
-  . [(0 3 0 0 20261018 2) ((emacs (31 1)))
+  . [(0 3 1 0 20261019 0) ((emacs (31 1)))
      "Reveal Markdown source at point" tar
      ((:url . "https://github.com/Thysrael/markdown-ts-appear")
       (:keywords "text" "convenience")
       (:maintainer "Thysrael" . "thysrael@163.com")
       (:authors ("Thysrael" . "thysrael@163.com"))
-      (:commit . "913205c69344abb57014e9800d685b8cd982dee3"))])
+      (:commit . "22577039b48c3209776bc2efc901b2bb8d4ebd9f"))])
  (mastodon
   . [(2 1 7 0 20261007 81)
      ((emacs (29 1)) (compat (31)) (persist (0 8)) (tp (0 8)))
@@ -1920,11 +1920,11 @@
       (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
       (:commit . "0c17124cefddf2d50defcec5f2bd25fa6d1db756"))])
  (slime
-  . [(2 32 -4 0 20261018 80) ((emacs (24 3)) (macrostep (0 9)))
+  . [(2 32 -4 0 20261018 81) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
      ((:url . "https://github.com/slime/slime")
       (:keywords "languages" "lisp" "slime")
-      (:commit . "4d998729d930af2a026c1fe67f8ff772b5f53d6a"))])
+      (:commit . "b53e5e3fe14cff97cf7a1b2240981023e1f71d70"))])
  (sly
   . [(1 0 43 0 20261013 150) ((emacs (24 5)))
      "Sylvester the Cat's Common Lisp IDE" tar
@@ -2223,11 +2223,11 @@
       (:authors ("Joost Kremers" . "joostkremers@fastmail.fm"))
       (:commit . "e1be9a1545157d24454d950c0ac79553c540edb7"))])
  (vm
-  . [(9 0 0 -4 0 20261018 283) ((emacs (28 1)) (vcard (0 2 2)))
+  . [(9 0 1 -4 0 20261018 1) ((emacs (28 1)) (vcard (0 2 2)))
      "VM mail reader" tar
      ((:url . "https://gitlab.com/emacs-vm/vm") (:keywords "mail")
       (:maintainer nil . "viewmail-info@nongnu.org")
-      (:commit . "c331d01d3792c111ac168057da84b352705025cc"))])
+      (:commit . "13308f8a758fb7f0f861588af2f607a9a711e574"))])
  (web-mode
   . [(17 3 25 0 20260831 3) ((emacs (24 3 1)))
      "major mode for editing web templates" tar
