@@ -1802,6 +1802,7 @@
   (f90-ts-mode :url "https://github.com/mscfd/emacs-f90-ts-mode")
   (fabric :url "https://github.com/nlamirault/fabric.el")
   (face-explorer :url "https://github.com/Lindydancer/face-explorer")
+  (faceup :url "https://github.com/Lindydancer/faceup")
   (factlog :url "https://github.com/tkf/factlog")
   (faff-theme :url "https://github.com/WJCFerguson/emacs-faff-theme")
   (fakir :url "https://github.com/nicferrier/emacs-fakir")
