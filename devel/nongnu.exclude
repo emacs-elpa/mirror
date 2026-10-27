@@ -2594,3 +2594,7 @@ helm-4.0.8.0.20261025.10.tar.sig
 helm-4.0.8.0.20261023.9.tar.sig
 helm-core-4.0.8.0.20261023.9.tar.sig
 helm-core-4.0.8.0.20261025.10.tar.sig
+clojure-ts-mode-0.6.0.0.20261010.60.tar.sig
+ebuild-mode-1.89.0.20261024.1.tar.sig
+vm-9.0.1snapshot0.20261023.4.tar.sig
+racket-mode-1.0.20260926.0.tar.sig
