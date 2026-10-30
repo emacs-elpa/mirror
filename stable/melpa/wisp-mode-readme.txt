@@ -15,7 +15,15 @@ compiler[1], have a look at wispjs-mode[2].
 
 ChangeLog:
 
- - 0.4.1  fix linting errors: custom, deprecations, and docstrings.
+ - 0.4.7: remove stray documentation
+ - 0.4.6: support moving by sexp inside a line and at the end of the line with C-M-f and C-M-b
+ - 0.4.5: implement wisp--forward-sexp (C-M-f) and wisp--backward-sexp (C-M-b) to move within the same depth.
+          wisp--tab (TAB) and wisp--backtab (S-TAB) now operate on the region if it is active
+ - 0.4.4: implement wisp--down-list (C-M-d) to move downwards in indentation or parentheses
+ - 0.4.3: fix: wisp-prev-indent-lower-than must ignore lines in strings and pure comment-lines but did not
+          implement wisp--backward-up-list (C-M-u) to move upwards in parentheses or indentation
+ - 0.4.2: specialize fill-reindent (M-q) not to break strings.
+ - 0.4.1: fix linting errors: custom, deprecations, and docstrings.
  - 0.4.0: provide wisp--eval-block (C-M-x)
           to send the current block to a buffer nammed *shell*.
           wisp--find-begin-and-end-of-block-around-region can cope with empty lines.
