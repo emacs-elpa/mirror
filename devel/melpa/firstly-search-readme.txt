@@ -1,7 +1,7 @@
-Any key activate search.
+Any key activate navigation by tuned search.
 There are minor modes for major modes: Dired, Package Menu.
-Cursor is moved by just pressing any printable characters
-of target filename or directory in current folder.
+Pressing any printable character moves the cursor, allowing
+search-based navigation to major elements.
 
 ;; Activation:
 
@@ -51,15 +51,18 @@ with specified values.
 Many functions use text properties, to investigate them use:
   M-: (print (text-properties-at (point)))
 
+To reduce  speed we use `isearch-repeat-on-direction-change' and
+`isearch-wrap-pause' variables.
+
 
 ;; Files:
+
 - first-search.el - common functionality for other files.
-- first-search-{dired,package,buffermenu,bookmarks}.el -
+- first-search-{dired,package,buffermenu,bookmarks,recentf}.el -
   define user available minor modes for specific major modes.
 
 ;; Other packages from author:
 
-- Modern navigation in major modes https://github.com/Anoncheg1/firstly-search
 - Search with Chinese	https://github.com/Anoncheg1/pinyin-isearch
 - Ediff no 3-th window	https://github.com/Anoncheg1/ediffnw
 - Dired history		https://github.com/Anoncheg1/dired-hist
@@ -68,16 +71,13 @@ Many functions use text properties, to investigate them use:
 - Solution for "callback hell"	https://github.com/Anoncheg1/emacs-async1
 - Restore buffer state	https://github.com/Anoncheg1/emacs-unmodified-buffer1
 - outline.el usage		https://github.com/Anoncheg1/emacs-outline-it
-- ai_block for Org mode for chat.  https://github.com/Anoncheg1/emacs-oai
-
-;; TODO:
-
-- instead of pre-command-hook make it
-  like [[file:/usr/share/emacs/30.2/lisp/isearch.el::571::(defvar isearch-mode-map]]
-- Add timeout to clear search unless Ctrl pressed
+- ai_block for Org mode for chat.  https://github.com/Anoncheg1/emacs-cui
+- TAB key reimplementation	https://github.com/Anoncheg1/emacs-indent
 
 ;; Donate:
 
-BTC (Bitcoin) address: 1CcDWSQ2vgqv5LxZuWaHGW52B9fkT5io25
-USDT (Tether TRX-TRON) address: TVoXfYMkVYLnQZV3mGZ6GvmumuBfGsZzsN
-TON (Telegram) address: UQC8rjJFCHQkfdp7KmCkTZCb5dGzLFYe2TzsiZpfsnyTFt9D
+- BTC (Bitcoin) address: 1CcDWSQ2vgqv5LxZuWaHGW52B9fkT5io25
+- USDT (Tether) address: TVoXfYMkVYLnQZV3mGZ6GvmumuBfGsZzsN
+- TON (Telegram) address: UQC8rjJFCHQkfdp7KmCkTZCb5dGzLFYe2TzsiZpfsnyTFt9D
+
+;; TODO:

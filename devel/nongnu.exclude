@@ -2672,3 +2672,7 @@ proof-general-4.6snapshot0.20261105.352.tar.sig
 magit-section-4.7.1.0.20261101.74.tar.sig
 tangotango-theme-0.0.7.0.20241117.114955.tar.sig
 magit-4.7.1.0.20261101.74.tar.sig
+flycheck-40.0snapshot0.20261106.187.tar.sig
+evil-collection-3.0.3.0.20261106.16.tar.sig
+clojure-ts-mode-0.6.0.0.20261103.98.tar.sig
+clojure-mode-5.23.0.0.20261103.13.tar.sig
