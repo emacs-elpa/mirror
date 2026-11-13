@@ -1,15 +1,16 @@
-Any key activate search.
+Any key activate navigation by tuned search.
 There are minor modes for major modes: Dired, Package Menu.
-Cursor is moved by just pressing any printable characters
-of target filename or directory in current folder.
+Pressing any printable character moves the cursor, allowing
+search-based navigation to major elements.
 
-Activation:
+;; Activation:
+
 - for Dired:	M-x firstly-search-dired-mode RET
 - for Package Menu:	M-x firstly-search-package-mode RET
 - for Buffer Menu:	M-x firstly-search-buffermenu-mode RET
 - for Bookmarks:	M-x firstly-search-bookmarks-mode RET
 
-in Emacs configuration (Init file):
+;; Configuration (in .emacs):
 (require 'firstly-search-dired)
 (require 'firstly-search-package)
 (require 'firstly-search-buffermenu)
@@ -19,7 +20,7 @@ in Emacs configuration (Init file):
 (add-hook 'Buffer-menu-mode-hook #'firstly-search-buffermenu-mode)
 (add-hook 'bookmark-bmenu-mode-hook #'firstly-search-bookmarks-mode)
 
-Customization:
+;; Customization:
 
 M-x customize-group RET firstly-search
 M-x customize-group RET firstly-search-dired
@@ -27,15 +28,18 @@ M-x customize-group RET firstly-search-package
 M-x customize-group RET firstly-search-buffermenu
 M-x customize-group RET firstly-search-bookmarks
 
-Note:
+;; Note:
+
 C-n and C-p is used during searching as C-s and C-r
 
-How it works:
+;; How it works:
 
 We use `pre-command-hook' called for any key pressed, if key is
-simple and not in "ignore-keys" we activate incremental search with
-modified `isearch-search-fun-function' that limit search to bounds
-in buffer and some other tweeks.
+in `firstly-search-keys' we activate configured incremental search
+ (isearch). Also we correctly handle failed search and set timer.
+To prevent intererence with major-mode keybindings we create copy
+of keymap with :parent of major-mode map at loading. At minor mode
+activation we set our map copy and set hooks.
 
 For Dired default `isearch-search-fun-in-text-property' function is
 used for search and only in text which have not nil specified "text
@@ -49,7 +53,33 @@ with specified values.
 Many functions use text properties, to investigate them use:
   M-: (print (text-properties-at (point)))
 
-Files:
+To reduce  speed we use `isearch-repeat-on-direction-change' and
+`isearch-wrap-pause' variables.
+
+
+;; Files:
+
 - first-search.el - common functionality for other files.
-- first-search-{dired,package,buffermenu,bookmarks}.el -
+- first-search-{dired,package,buffermenu,bookmarks,recentf}.el -
   define user available minor modes for specific major modes.
+
+;; Other packages from author:
+
+- Search with Chinese	https://github.com/Anoncheg1/pinyin-isearch
+- Ediff no 3-th window	https://github.com/Anoncheg1/ediffnw
+- Dired history		https://github.com/Anoncheg1/dired-hist
+- Selected window contrast	https://github.com/Anoncheg1/selected-window-contrast
+- Copy link to clipboard	https://github.com/Anoncheg1/emacs-org-links
+- Solution for "callback hell"	https://github.com/Anoncheg1/emacs-async1
+- Restore buffer state	https://github.com/Anoncheg1/emacs-unmodified-buffer1
+- outline.el usage		https://github.com/Anoncheg1/emacs-outline-it
+- ai_block for Org mode for chat.  https://github.com/Anoncheg1/emacs-cui
+- TAB key reimplementation	https://github.com/Anoncheg1/emacs-indent
+
+;; Donate:
+
+- BTC (Bitcoin) address: 1CcDWSQ2vgqv5LxZuWaHGW52B9fkT5io25
+- USDT (Tether) address: TVoXfYMkVYLnQZV3mGZ6GvmumuBfGsZzsN
+- TON (Telegram) address: UQC8rjJFCHQkfdp7KmCkTZCb5dGzLFYe2TzsiZpfsnyTFt9D
+
+;; TODO:
