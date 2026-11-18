@@ -26,7 +26,7 @@ For customizing this library, there is the customization group aes
 in the applications group.
 
 Emacs compatibility:
-Version 27 is recommended
+Version 27 or later is recommended
 Version 26 has not been tested
 Version 25 and earlier are incompatible
 
@@ -68,9 +68,8 @@ here.
   on random user input like mousemovement, time and keyinput.
 
 The version of the internal storage format of encrypted data is
-1.3.  Version 1.2 will be supported until at least December
-2015. But it is advised to load and save all encrypted files using
-this version
+Version 1.3.  If you need to decrypt data stored in Version 1.2,
+please use Verion 1.0 of this library or an earlier one.
 
 The latest version of this package is also available via MELPA [9].
 
