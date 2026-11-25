@@ -1,20 +1,28 @@
-ert-gwt adds Given-When-Then (GWT) structure to ERT, the standard
-testing framework for Emacs Lisp.  Instead of encoding the shape of
-a test in a long symbol name you write the structure directly as
-macro clauses:
+ert-gwt adds Given-When-Then structure to ERT:
 
     (ert-gwt-deftest
       (:given ((user (make-user "alice" "secret"))))
       (:when  (login user))
       (:then  (login-redirects-to-home-p user)))
 
-The macro generates a unique ERT test name: either `test-gwt-N'
-or, when a `:describe' string clause is present, a slugified
-`test-<slug>' name that reads well in ERT reports.
+`:given' takes `let'-style bindings followed by setup forms and may
+repeat; later givens see earlier bindings.  `:when' is the action
+under test and is required.  `:then' forms are wrapped in `should'
+and may repeat.  `:cleanup' forms run after the test, even on failure.
 
-`:given' accepts `let'-style bindings followed by arbitrary setup
-forms.  `:when' holds the action under test.  Each `:then' form is
-wrapped in `should', so plain ERT expectations apply.
+Each test is named after the defining file and a hash of its clauses
+and file identity: <file-prefix>-<hash8>, with -2, -3, ... appended
+when a file contains identical clauses more than once.  The name is
+ERT's symbol; it is not written into the source, so the defining form
+is recorded on the test symbol for `find-function'.
 
-There are no dependencies beyond ERT itself.  One macro, one
-counter, one `provide'.
+Setup stubs belong in `:given' as place bindings:
+
+    (:given (((symbol-function 'yes-or-no-p)
+               (lambda (_prompt) t))))
+
+A `cl-letf' written as a setup form is not a stub: the rebinding is
+undone as soon as that form finishes.
+
+After the user `:cleanup' forms, buffers created during the test are
+killed and files made with `ert-gwt--temp-file' are deleted.
