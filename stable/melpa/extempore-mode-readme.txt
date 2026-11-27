@@ -1,14 +1,20 @@
-A major mode for editing Extempore code. See the Extempore project
-page at http://github.com/digego/extempore for more details.
+A major mode for editing Extempore code (https://extemporelang.github.io).
 
-History
+With Extempore's nREPL transport (the default), the mode starts Eglot with
+Extempore's language server, `extempore lsp', which connects to a running
+Extempore's nREPL server (found through a .nrepl-port file, else port
+7888).  That gives evaluation with each result shown at its form, errors
+marked as diagnostics, completion, eldoc from hover, and formatting.
 
-Adapted from: scheme.el by Bill Rozas and Dave Love
-Also includes some work done by Hector Levesque and Andrew Sorensen
+The most important commands are
 
-Installation:
+  C-M-x      `extempore-send-dwim': evaluate the top-level form at point,
+             or the region
+  C-c C-k    `extempore-send-buffer'
+  C-c C-b    `extempore-interrupt'
+  C-c C-z    `switch-to-extempore': start Extempore in a buffer, or go to it
 
-Install via package.el functionality
+For an Extempore older than its nREPL server, set `extempore-transport' to
+`legacy' and connect to its eval server on port 7099 with C-c C-j.
 
-Currently, extempore.el requires Emacs 24, because it inherits from
-prog-mode (via lisp-mode)
+See README.md for more.

@@ -1,14 +1,21 @@
-Advent of Code helper minor mode.
+Advent of Code helper mode.
 
-Features:
+ - Global minor mode autodetecting solution directories
 
-- Global minor mode that autodetects AoC code.
+ - Display year/day/cookie in the mode line
 
-- Mode-line shows year/day/cookie
+ - Manage the AoC session cookie
 
-- Assumed directory layout: path/to/aoc/year<YYYY>/day<DD>
+ - Optionally read the cookie from .authinfo
 
-- Commands to open problem, fetch input, add new day, submit
-  answers.
+ - Create a new AoC day (with boilerplate files)
+
+ - Browse existing day solutions
+
+ - Open the current problem using eww
+
+ - Fetch and open the puzzle input
+
+ - Submit an answer to AoC
 
 Inspired by https://github.com/keegancsmith/advent/
